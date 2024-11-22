@@ -1,0 +1,12 @@
+###################################################
+Executing Scenario : 111674: TC13_ Canada Online -MM Homepage>SignIn Page_Verify the JSY card in Dashboard for_IL Early Advance loan eligible customers_Leadge|TC_59_Leadgen_EarlyAdvance
+###################################################
+***********************************************************
+Start Time : 28_09_2022_19-05-40
+TC_59_LEADGEN_EARLYADVANCE
+TC_59_LEADGEN_EARLYADVANCE_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application

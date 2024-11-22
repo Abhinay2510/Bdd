@@ -1,0 +1,33 @@
+###################################################
+Executing Scenario : 111674: TC13_ Canada Online -MM Homepage>SignIn Page_Verify the JSY card in Dashboard for_IL Early Advance loan eligible customers_Leadge|TC_59_Leadgen_EarlyAdvance
+###################################################
+***********************************************************
+Start Time : 28_09_2022_19-37-31
+TC_59_LEADGEN_EARLYADVANCE
+TC_59_LEADGEN_EARLYADVANCE_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL Jsy card
+Test Finished : And customer chooses IL Jsy card
+Test Started : And select the without flinks option
+Test Finished : And select the without flinks option
+Test Started : And Verify the reloan income information
+Test Finished : And Verify the reloan income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And Verify Reloan and refi customer manual or Autofund
+Test Finished : And Verify Reloan and refi customer manual or Autofund
+Test Started : And customer Reduce approved amount & Loan term
+Test Finished : And customer Reduce approved amount & Loan term
+Test Started : And Verify the loan documents
+Test Finished : And Verify the loan documents
+Test Started : And verify the DB validatioin
+Test Finished : And verify the DB validatioin
+Test Started : And Verify the loan documents
+Test Finished : And Verify the loan documents
+Tests finished! Number of test Steps : 13

@@ -1,0 +1,27 @@
+###################################################
+Executing Scenario : Test case 91541: SPL_Verify customers address entered in "Current street address*" field in "About you" page with Province of residence selected on top of the page.|TC_13_Cust_Add_Pro
+###################################################
+***********************************************************
+Start Time : 31_10_2022_17-33-16
+TC_13_CUST_ADD_PRO
+TC_13_CUST_ADD_PRO_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch TDPOD application.
+Test Finished : Given User opens the chrome and launch TDPOD application.
+Test Started : And User provides Login id/Password detials and click login.
+Test Finished : And User provides Login id/Password detials and click login.
+Test Started : And User clicks on Cash Advance option on dashboard.
+Test Finished : And User clicks on Cash Advance option on dashboard.
+Test Started : And User lands on About you page.
+Test Finished : And User lands on About you page.
+Test Started : And Customer enter address different than province selected.
+Test Finished : And Customer enter address different than province selected.
+Test Started : And Validate the error displayed for other than province.
+Test Finished : And Validate the error displayed for other than province.
+Test Started : Then User selects checkboxes of I agree and concent clicks next button.
+Test Finished : Then User selects checkboxes of I agree and concent clicks next button.
+Test Started : Then User enter address same of province selected and clicks Next.
+Test Finished : Then User enter address same of province selected and clicks Next.
+Test Started : And User selects Standard option for entering information and clicks Next.
+Test Finished : And User selects Standard option for entering information and clicks Next.
+Tests finished! Number of test Steps: 10

@@ -1,0 +1,45 @@
+###################################################
+Executing Scenario : Online_New Customer_SPL_Approved|TC_16_new_customer_SPL
+###################################################
+***********************************************************
+Start Time : 17_10_2022_16-17-23
+TC_16_NEW_CUSTOMER_SPL
+TC_16_NEW_CUSTOMER_SPL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+ujvi
+=================Customer Name====================
+=================Customer Email====================
+ujvijohnydmx@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl
+Test Finished : And User provides basic information for spl
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And enter valid OTP
+Test Finished : And enter valid OTP
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Tests finished! Number of test Steps : 16

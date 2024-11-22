@@ -1,0 +1,15 @@
+###################################################
+Executing Scenario : Test case 91527: Verify Sign in page UI update continue as guest customer after About you page.|TC_12_SignIn_Cust_Guest
+###################################################
+***********************************************************
+Start Time : 14_10_2022_17-22-19
+TC_12_SIGNIN_CUST_GUEST
+TC_12_SIGNIN_CUST_GUEST_DS1
+***********************************************************
+Test Started : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Finished : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Started : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Finished : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Started : And User entres required information on tell us about you page.
+Test Finished : And User entres required information on tell us about you page.
+Tests finished! Number of test Steps : 4

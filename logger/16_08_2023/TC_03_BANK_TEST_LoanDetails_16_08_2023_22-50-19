@@ -1,0 +1,21 @@
+###################################################
+Executing Scenario : Successful login with valid credentials |TC_03_bank_test
+###################################################
+***********************************************************
+Start Time : 16_08_2023_22-50-19
+TC_03_BANK_TEST
+TC_03_BANK_TEST_DS1
+***********************************************************
+Test Started : Given the user is on the login page
+Test Finished : Given the user is on the login page
+Test Started : When the user enters the username "Bhaskar"
+Test Finished : When the user enters the username "Bhaskar"
+Test Started : And the user enters the password "bhaskar"
+Test Finished : And the user enters the password "bhaskar"
+Test Started : And the user enters the 4 digits number "1234"
+Test Finished : And the user enters the 4 digits number "1234"
+Test Started : And the user clicks on the login button
+Test Finished : And the user clicks on the login button
+Test Started : Then the user should be logged in successfully
+Test Finished : Then the user should be logged in successfully
+Tests finished! Number of test Steps: 7

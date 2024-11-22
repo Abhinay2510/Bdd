@@ -1,0 +1,23 @@
+###################################################
+Executing Scenario : Test case 91427: TC-02_CAN-Online: Verify Sign in page UI update continue as guest customer at Flinks-Bank Information page|TC_11_SignIn_Cust_GuestE
+###################################################
+***********************************************************
+Start Time : 14_10_2022_17-16-22
+TC_11_SIGNIN_CUST_GUESTE
+TC_11_SIGNIN_CUST_GUESTE_DS1
+***********************************************************
+Test Started : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Finished : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Started : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Finished : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Started : And User entres all required information on tell us about you page
+Test Finished : And User entres all required information on tell us about you page
+Test Started : And User is on FlinkConnect, 2ways to apply page.
+Test Finished : And User is on FlinkConnect, 2ways to apply page.
+Test Started : And select flink option
+Test Finished : And select flink option
+Test Started : And User clickson SignIn link on FlinkConnect page.
+Test Finished : And User clickson SignIn link on FlinkConnect page.
+Test Started : And verify the Guest link in singup page
+Test Finished : And verify the Guest link in singup page
+Tests finished! Number of test Steps: 8

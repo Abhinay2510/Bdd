@@ -1,0 +1,36 @@
+###################################################
+Executing Scenario : TC01_Canada Online - Ontario IL in employment page -previous pay cheque total field shows wrong date.|TC_24_Emp_prevtot_wrngdate
+###################################################
+***********************************************************
+Start Time : 04_11_2022_07-24-47
+TC_24_EMP_PREVTOT_WRNGDATE
+TC_24_EMP_PREVTOT_WRNGDATE_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : And verify the phonenumber threshold based on phonenumber
+Test Finished : And verify the phonenumber threshold based on phonenumber
+=================Customer Name====================
+xvty
+=================Customer Name====================
+033322
+=================Customer Email====================
+xvtyjohnxwdh@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information for weekly frequency caption validation
+Test Finished : And Provides income information for weekly frequency caption validation
+Tests finished! Number of test Steps: 11

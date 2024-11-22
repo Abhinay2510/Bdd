@@ -1,0 +1,112 @@
+###################################################
+Executing Scenario : Online_New Customer_IL_Credit Declined|TC_14_ILLoandenied
+###################################################
+***********************************************************
+Start Time : 17_10_2022_12-02-47
+TC_14_ILLOANDENIED
+TC_14_ILLOANDENIED_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+=================Customer Name====================
+wjvi
+=================Customer Name====================
+=================Customer Email====================
+wjvijohngnnx@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And loan decision screen
+Test Finished : And loan decision screen
+Test Started : And verify the DB validatioin
+Test Finished : And verify the DB validatioin
+*********************** LOAN DETAILS *****************************
+Loan Id : 30010299
+Customer Id : 4192921
+Loan Type Id : 4
+Loan Status Id : 11
+*********************** LOAN DETAILS *****************************
+Test Started : And Initialize Loan Details and write to excel
+Test Finished : And Initialize Loan Details and write to excel
+###################################################
+select CAST(CustomerId as VARCHAR(15)) AS CustomerId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(ParentLoanId AS VARCHAR(15)) AS ParentLoanId, CAST(channeltypeid as VARCHAR(15)) as channeltypeid, CAST(EffectiveDate as VARCHAR(25)) as EffectiveDate,CAST(APR AS VARCHAR(10)) AS APR, CAST(StateCode as VARCHAR(5)) as StateCode, CAST(LoanContractNumber AS VARCHAR(25)) AS LoanContractNumber, CAST(LoanStatusId as VARCHAR(5)) as LoanStatusId, CAST(LoanTypeId as VARCHAR(5)) as LoanTypeId,CAST(TotalAmount as VARCHAR(10)) as TotalAmount,CAST(Principal as VARCHAR(10)) as Principal,CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId,CAST(RepaymentTypeId as VARCHAR(5)) as RepaymentTypeId from VitaPDLCAN..Loan where LoanId = '30010299'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ Loan Details ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: CustomerId, LoanId, ParentLoanId, channeltypeid, EffectiveDate, APR, StateCode, LoanContractNumber, LoanStatusId, LoanTypeId, TotalAmount, Principal, PaymentTypeId, RepaymentTypeId
+Loan Details table row :1: 4192921 30010299 0 2 Oct 17 2022  1:36AM 0 NL I-4192921-171022-02 11 4 0.00 0.00 1 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Loan details in logger for investigation
+Test Finished : And log all the Loan details in logger for investigation
+###################################################
+select Note, LoanNoteTypeId from VitaPDLCAN..LoanNote where LoanId = '30010299'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanNote ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Note table row :0: Loan denied - Invalid primary income  :  5
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Note details in logger for investigation
+Test Finished : And log all the Note details in logger for investigation
+###################################################
+select CAST(Amount as VARCHAR(15)) AS Amount, CAST(Principal as VARCHAR(15)) AS Principal, CAST(Returned AS VARCHAR(5)) AS Returned, CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId, CAST(LoanPaymentStatusId as VARCHAR(5)) as LoanPaymentStatusId from VitaPDLCAN..LoanPayment where LoanId = '30010299'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanPayment ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Payments table row :0: Amount, Principal, Returned, PaymentTypeId, LoanPaymentStatusId
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all payment details in logger for investigation
+Test Finished : And log all payment details in logger for investigation
+###################################################
+select CAST(TransactionTypeId as VARCHAR(15)) as TransactionTypeId, CAST(Amount as VARCHAR(15)) as Amount, CAST(Principal as VARCHAR(15)) as Principal, CAST(CreatedByUserName as VARCHAR(15)) as CreatedByUserName from VitaPDLCAN..LoanTransaction where LoanId = '30010299'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanTransaction ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Transaction table row :0: TransactionTypeId, Amount, Principal, CreatedByUserName
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all Transaction details in logger for investigation
+Test Finished : And log all Transaction details in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(EFTRequest as VARCHAR(2000)) AS EFTRequest from VitaPDLCAN..EFTLog where LoanId = '30010299'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ EFTLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan EFTLog table row :0: LoanId, CustomerId, EFTRequest
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all EFTLog details in logger for investigation
+Test Finished : And log all EFTLog details in logger for investigation
+###################################################
+select CAST(ETransferLogId as VARCHAR(15)) AS ETransferLogId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(LoanPaymentId as VARCHAR(15)) AS LoanPaymentId , CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(ETransferRequest as VARCHAR(2000)) AS ETransferRequest,CAST(ETransferResponse as VARCHAR(2000)) AS ETransferResponse from VitaPDLCAN..ETransferLog where LoanId = '30010299'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ ETransferLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan ETransferLog table row :0: ETransferLogId, LoanId, LoanPaymentId, CustomerId, ETransferRequest, ETransferResponse
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all ETransferLog details in logger for investigation
+Test Finished : And log all ETransferLog details in logger for investigation
+Tests finished! Number of test Steps: 22

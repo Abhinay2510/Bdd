@@ -1,0 +1,38 @@
+###################################################
+Executing Scenario : verify PopUp after checking for open loan when Entered same details of existing user (Without SIN) having active SPL loan|TC_09_ExistingCust_SPL_Loan
+###################################################
+***********************************************************
+Start Time : 26_09_2022_16-37-20
+TC_09_EXISTINGCUST_SPL_LOAN
+TC_09_EXISTINGCUST_SPL_LOAN_DS1
+***********************************************************
+Test Started : Given Genareted sin(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : Given Genareted sin(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : Given user click on signup customer(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : Given user click on signup customer(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+=================Customer Name====================
+jzyq
+=================Customer Name====================
+=================Customer Email====================
+jzyqjohnrdkm@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Pre-requisite data generation for customer(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : When Create customer(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : When Create customer(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And verify the phonenumber threshold(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And verify the phonenumber threshold(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Verify the address threshold and update address(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Verify the address threshold and update address(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Run the TU query(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Run the TU query(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And customer chooses SPL loan(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And customer chooses SPL loan(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And User provides basic information for spl(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And User provides basic information for spl(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And select the flink consent(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And select the flink consent(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Provides income information(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Provides income information(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And signed the picra and submit application(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And signed the picra and submit application(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 

@@ -1,0 +1,22 @@
+###################################################
+Executing Scenario : New_Reduce approved amount & Increase Loan term|TC_74_NewIncreaseterm
+###################################################
+***********************************************************
+Start Time : 02_11_2022_20-28-03
+TC_74_NEWINCREASETERM
+TC_74_NEWINCREASETERM_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+tbpi
+=================Customer Name====================
+660411
+=================Customer Email====================
+tbpijohnswvj@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold
+Tests finished! Number of test Steps : 4

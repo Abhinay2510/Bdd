@@ -1,0 +1,35 @@
+###################################################
+Executing Scenario : TC15_CAN_Online_IL_Non Flinks_Verify, when user selects multiple income source, the loan application should be Approved|TC_43_multipleincome
+###################################################
+***********************************************************
+Start Time : 01_11_2022_20-50-37
+TC_43_MULTIPLEINCOME
+TC_43_MULTIPLEINCOME_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : And verify the phonenumber threshold based on phonenumber
+Test Finished : And verify the phonenumber threshold based on phonenumber
+=================Customer Name====================
+lrvu
+=================Customer Name====================
+632810
+=================Customer Email====================
+lrvujohnvdbd@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides multiple income source
+Test Finished : And Provides multiple income source

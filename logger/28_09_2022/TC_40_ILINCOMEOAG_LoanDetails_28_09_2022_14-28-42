@@ -1,0 +1,108 @@
+###################################################
+Executing Scenario : TC05_CAN_Online_IL_Non Flinks_Verify, when user selects income source as Old Age Security the loan application should be Approved|TC_40_ILincomeOAG
+###################################################
+***********************************************************
+Start Time : 28_09_2022_14-28-42
+TC_40_ILINCOMEOAG
+TC_40_ILINCOMEOAG_DS1
+***********************************************************
+Test Started : And verify the DB validatioin
+Test Finished : And verify the DB validatioin
+*********************** LOAN DETAILS *****************************
+Loan Id : 23908424
+Customer Id : 4192301
+Loan Type Id : 4
+Loan Status Id : 3
+*********************** LOAN DETAILS *****************************
+Test Started : And Initialize Loan Details and write to excel
+Test Finished : And Initialize Loan Details and write to excel
+###################################################
+select CAST(CustomerId as VARCHAR(15)) AS CustomerId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(ParentLoanId AS VARCHAR(15)) AS ParentLoanId, CAST(channeltypeid as VARCHAR(15)) as channeltypeid, CAST(EffectiveDate as VARCHAR(25)) as EffectiveDate,CAST(APR AS VARCHAR(10)) AS APR, CAST(StateCode as VARCHAR(5)) as StateCode, CAST(LoanContractNumber AS VARCHAR(25)) AS LoanContractNumber, CAST(LoanStatusId as VARCHAR(5)) as LoanStatusId, CAST(LoanTypeId as VARCHAR(5)) as LoanTypeId,CAST(TotalAmount as VARCHAR(10)) as TotalAmount,CAST(Principal as VARCHAR(10)) as Principal,CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId,CAST(RepaymentTypeId as VARCHAR(5)) as RepaymentTypeId from VitaPDLCAN..Loan where LoanId = '23908424'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ Loan Details ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: CustomerId, LoanId, ParentLoanId, channeltypeid, EffectiveDate, APR, StateCode, LoanContractNumber, LoanStatusId, LoanTypeId, TotalAmount, Principal, PaymentTypeId, RepaymentTypeId
+Loan Details table row :1: 4192301 23908424 0 2 Sep 30 2022 12:00AM 46.9 ON I-4192301-280922-02 3 4 13180.82 7000.00 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Loan details in logger for investigation before strom
+Test Finished : And log all the Loan details in logger for investigation before strom
+###################################################
+select Note, LoanNoteTypeId from VitaPDLCAN..LoanNote where LoanId = '23908424'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanNote ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Note table row :0: Loan initiated  :  1
+Loan Note table row :1: ILGuardrailCustomerType-New  :  1
+Loan Note table row :2: Underwriting Approved  :  1
+Loan Note table row :3: Terms exculded for Max loan term amount check  :  1
+Loan Note table row :4: Proof of Income is required.  :  44
+Loan Note table row :5: Net new customer review  :  44
+Loan Note table row :6: Decision response for SubmitAppForFraudHotlist approved.  :  1
+Loan Note table row :7: MDS SummaryScore: 320  :  1
+Loan Note table row :8: TUMDSResult: Review  :  1
+Loan Note table row :9: DEDecision:   :  1
+Loan Note table row :10: IO Potential Fraud: IP Address Distance 500   :  1
+Loan Note table row :11: IO Potential Fraud: IP Address Distance 300   :  1
+Loan Note table row :12: IO Potential Fraud: IP Address Distance 150   :  1
+Loan Note table row :13: TUMDS Result Passed  :  1
+Loan Note table row :14: IO Potential Fraud: High Risk Transactions Per IP   :  44
+Loan Note table row :15: IO Potential Fraud: Geolocation [Province] Mismatch   :  44
+Loan Note table row :16: DECILE_RISK  :  44
+Loan Note table row :17: Loan has been sent to CSC for approval  :  1
+Loan Note table row :18: Bank Info is updated, Previous Bank Details - BankAccountNumber: 123123, FinancialInstitutionNumber: 003, BranchTransitNumber: 00033,LoanType:SPL  :  4
+Loan Note table row :19:   :  51
+Loan Note table row :20: Loan queued for EFT funding  :  39
+Loan Note table row :21: Loan funded through EFT  :  40
+Loan Note table row :22: Loan finalized  :  1
+Loan Note table row :23: Loan has been activated  :  1
+Loan Note table row :24: LPP Rejected  :  5
+Loan Note table row :25: LPP Rejected due to TOO EXPENSIVE  :  5
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Note details in logger for investigation before strom
+Test Finished : And log all the Note details in logger for investigation before strom
+###################################################
+select CAST(Amount as VARCHAR(15)) AS Amount, CAST(Principal as VARCHAR(15)) AS Principal, CAST(Returned AS VARCHAR(5)) AS Returned, CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId, CAST(LoanPaymentStatusId as VARCHAR(5)) as LoanPaymentStatusId from VitaPDLCAN..LoanPayment where LoanId = '23908424'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanPayment ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Payments table row :0: Amount, Principal, Returned, PaymentTypeId, LoanPaymentStatusId
+Loan Payments table row :1: 7000.00 7000.00 0 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all payment details in logger for investigation before strom
+Test Finished : And log all payment details in logger for investigation before strom
+###################################################
+select CAST(TransactionTypeId as VARCHAR(15)) as TransactionTypeId, CAST(Amount as VARCHAR(15)) as Amount, CAST(Principal as VARCHAR(15)) as Principal, CAST(CreatedByUserName as VARCHAR(15)) as CreatedByUserName from VitaPDLCAN..LoanTransaction where LoanId = '23908424'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanTransaction ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Transaction table row :0: TransactionTypeId, Amount, Principal, CreatedByUserName
+Loan Transaction table row :1: 1 7000.00 7000.00 null
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all Transaction details in logger for investigation before strom
+Test Finished : And log all Transaction details in logger for investigation before strom
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(EFTRequest as VARCHAR(2000)) AS EFTRequest from VitaPDLCAN..EFTLog where LoanId = '23908424'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ EFTLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan EFTLog table row :0: LoanId, CustomerId, EFTRequest
+Loan EFTLog table row :1: 23908424 4192301 <VitaEFTTransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Amount>7000.0000</Amount><BankTransactionID>0</BankTransactionID><BatchNumber>0</BatchNumber><DepositDate>0001-01-01T00:00:00</DepositDate><EffectiveDate>2022-09-28T00:00:00</EffectiveDate><ProductRefID>4</ProductRefID><SourceRefID>21531787</SourceRefID><SourceSystemID>3</SourceSystemID><StationID>946</StationID><SubProductID>10</SubProductID><TransactionType>Credit</TransactionType><Customer><Address>F-415 DUNSDON ST</Address><City>BRANTFORD</City><Country>CA</Country><FirstName>JOHNJTOT</FirstName><LastName>MARKJTOT</LastName><PostCode>N3P1W7</PostCode><State>ON</State></Customer><CustomerBank><BankABA/><BankAccount>123123</BankAccount><BranchID>00033</BranchID><InstitutionID>003</InstitutionID></CustomerBank><BankValueDate>2022-09-28T00:00:00</BankValueDate></VitaEFTTransaction>
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all EFTLog details in logger for investigation before strom
+Test Finished : And log all EFTLog details in logger for investigation before strom
+###################################################
+select CAST(ETransferLogId as VARCHAR(15)) AS ETransferLogId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(LoanPaymentId as VARCHAR(15)) AS LoanPaymentId , CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(ETransferRequest as VARCHAR(2000)) AS ETransferRequest,CAST(ETransferResponse as VARCHAR(2000)) AS ETransferResponse from VitaPDLCAN..ETransferLog where LoanId = '23908424'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ ETransferLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan ETransferLog table row :0: ETransferLogId, LoanId, LoanPaymentId, CustomerId, ETransferRequest, ETransferResponse
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all ETransferLog details in logger for investigation before strom
+Test Finished : And log all ETransferLog details in logger for investigation before strom
+Tests finished! Number of test Steps : 9

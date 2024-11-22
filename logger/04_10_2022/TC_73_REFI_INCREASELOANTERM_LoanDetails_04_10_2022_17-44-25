@@ -1,0 +1,24 @@
+###################################################
+Executing Scenario : TC02_JSY_Refi_Reduce approved amount & Increase Loan term|TC_73_Refi_IncreaseLoanterm
+###################################################
+***********************************************************
+Start Time : 04_10_2022_17-44-25
+TC_73_REFI_INCREASELOANTERM
+TC_73_REFI_INCREASELOANTERM_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+CurrentURL:::https://qac.moneymart.ca/loan-application/verifyincome?loanType=Refi
+Test Started : And customer chooses IL Jsy card
+Test Finished : And customer chooses IL Jsy card
+Test Started : And select the without flinks option
+Test Finished : And select the without flinks option
+Test Started : And Verify the reloan income information
+Test Finished : And Verify the reloan income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And Verify Reloan and refi customer manual or Autofund
+Test Finished : And Verify Reloan and refi customer manual or Autofund
+Tests finished! Number of test Steps : 8

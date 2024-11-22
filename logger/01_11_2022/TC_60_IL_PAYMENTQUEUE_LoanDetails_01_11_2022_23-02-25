@@ -1,0 +1,188 @@
+###################################################
+Executing Scenario : Verify schedule payment queue of an IL|TC_60_IL_paymentqueue
+###################################################
+***********************************************************
+Start Time : 01_11_2022_23-02-25
+TC_60_IL_PAYMENTQUEUE
+TC_60_IL_PAYMENTQUEUE_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+vsnq
+=================Customer Name====================
+642746
+=================Customer Email====================
+vsnqjohnxksc@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And verify the funding screen and chosses the funding type
+Test Finished : And verify the funding screen and chosses the funding type
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Verify the loan approved amount
+Test Finished : And Verify the loan approved amount
+Test Started : And chosses the either LPP yes or no
+Test Finished : And chosses the either LPP yes or no
+Test Started : And bank details
+Test Finished : And bank details
+Test Started : And Verify the loan documents
+Test Finished : And Verify the loan documents
+Test Started : And verify the DB validatioin
+Test Finished : And verify the DB validatioin
+###################################################
+select Note, LoanNoteTypeId from VitaPDLCAN..LoanNote where LoanId = '31291634'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanNote ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Note table row :0: Loan initiated  :  1
+Loan Note table row :1: ILGuardrailCustomerType-New  :  1
+Loan Note table row :2: Underwriting Approved  :  1
+Loan Note table row :3: Terms exculded for Max loan term amount check  :  1
+Loan Note table row :4: Proof of Income is required.  :  44
+Loan Note table row :5: Net new customer review  :  44
+Loan Note table row :6: MDS SummaryScore: 840  :  1
+Loan Note table row :7: TUMDSResult: Pass  :  1
+Loan Note table row :8: DEDecision:   :  1
+Loan Note table row :9: TUMDS Result Passed  :  1
+Loan Note table row :10: TU Potential Fraud: Reported Fraud Alert   :  44
+Loan Note table row :11: TU Potential Fraud: SIN reported misused   :  44
+Loan Note table row :12: DECILE_RISK  :  44
+Loan Note table row :13: Loan has been sent to CSC for approval  :  1
+Loan Note table row :14: Markvsnq  :  51
+Loan Note table row :15: Loan queued for EFT funding  :  39
+Loan Note table row :16: Loan funded through EFT  :  40
+Loan Note table row :17: Loan finalized  :  1
+Loan Note table row :18: Loan has been activated  :  1
+Loan Note table row :19: LPP Accepted  :  1
+Loan Note table row :20: Loan payment queued by EFT deposit  :  2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And Make IL and LPP scheduler payments
+Test Finished : And Make IL and LPP scheduler payments
+*********************** LOAN DETAILS *****************************
+Loan Id : 31291634
+Customer Id : 4193653
+Loan Type Id : 4
+Loan Status Id : 3
+*********************** LOAN DETAILS *****************************
+Test Started : And Initialize Loan Details and write to excel
+Test Finished : And Initialize Loan Details and write to excel
+###################################################
+select CAST(CustomerId as VARCHAR(15)) AS CustomerId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(ParentLoanId AS VARCHAR(15)) AS ParentLoanId, CAST(channeltypeid as VARCHAR(15)) as channeltypeid, CAST(EffectiveDate as VARCHAR(25)) as EffectiveDate,CAST(APR AS VARCHAR(10)) AS APR, CAST(StateCode as VARCHAR(5)) as StateCode, CAST(LoanContractNumber AS VARCHAR(25)) AS LoanContractNumber, CAST(LoanStatusId as VARCHAR(5)) as LoanStatusId, CAST(LoanTypeId as VARCHAR(5)) as LoanTypeId,CAST(TotalAmount as VARCHAR(10)) as TotalAmount,CAST(Principal as VARCHAR(10)) as Principal,CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId,CAST(RepaymentTypeId as VARCHAR(5)) as RepaymentTypeId from VitaPDLCAN..Loan where LoanId = '31291634'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ Loan Details ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: CustomerId, LoanId, ParentLoanId, channeltypeid, EffectiveDate, APR, StateCode, LoanContractNumber, LoanStatusId, LoanTypeId, TotalAmount, Principal, PaymentTypeId, RepaymentTypeId
+Loan Details table row :1: 4193653 31291634 0 2 Oct  3 2022 11:00PM 46.9 ON I-4193653-011122-02 3 4 13122.75 7000.00 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Loan details in logger for investigation
+Test Finished : And log all the Loan details in logger for investigation
+###################################################
+select Note, LoanNoteTypeId from VitaPDLCAN..LoanNote where LoanId = '31291634'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanNote ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Note table row :0: Loan initiated  :  1
+Loan Note table row :1: ILGuardrailCustomerType-New  :  1
+Loan Note table row :2: Underwriting Approved  :  1
+Loan Note table row :3: Terms exculded for Max loan term amount check  :  1
+Loan Note table row :4: Proof of Income is required.  :  44
+Loan Note table row :5: Net new customer review  :  44
+Loan Note table row :6: MDS SummaryScore: 840  :  1
+Loan Note table row :7: TUMDSResult: Pass  :  1
+Loan Note table row :8: DEDecision:   :  1
+Loan Note table row :9: TUMDS Result Passed  :  1
+Loan Note table row :10: TU Potential Fraud: Reported Fraud Alert   :  44
+Loan Note table row :11: TU Potential Fraud: SIN reported misused   :  44
+Loan Note table row :12: DECILE_RISK  :  44
+Loan Note table row :13: Loan has been sent to CSC for approval  :  1
+Loan Note table row :14: Markvsnq  :  51
+Loan Note table row :15: Loan queued for EFT funding  :  39
+Loan Note table row :16: Loan funded through EFT  :  40
+Loan Note table row :17: Loan finalized  :  1
+Loan Note table row :18: Loan has been activated  :  1
+Loan Note table row :19: LPP Accepted  :  1
+Loan Note table row :20: Loan payment queued by EFT deposit  :  2
+Loan Note table row :21: LPP payment made by EFT deposit  :  2
+Loan Note table row :22: Loan payment made by EFT deposit  :  2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Note details in logger for investigation
+Test Finished : And log all the Note details in logger for investigation
+###################################################
+select CAST(Amount as VARCHAR(15)) AS Amount, CAST(Principal as VARCHAR(15)) AS Principal, CAST(Returned AS VARCHAR(5)) AS Returned, CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId, CAST(LoanPaymentStatusId as VARCHAR(5)) as LoanPaymentStatusId from VitaPDLCAN..LoanPayment where LoanId = '31291634'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanPayment ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Payments table row :0: Amount, Principal, Returned, PaymentTypeId, LoanPaymentStatusId
+Loan Payments table row :1: 7000.00 7000.00 0 4 4
+Loan Payments table row :2: 364.53 0.00 0 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all payment details in logger for investigation
+Test Finished : And log all payment details in logger for investigation
+###################################################
+select CAST(TransactionTypeId as VARCHAR(15)) as TransactionTypeId, CAST(Amount as VARCHAR(15)) as Amount, CAST(Principal as VARCHAR(15)) as Principal, CAST(CreatedByUserName as VARCHAR(15)) as CreatedByUserName from VitaPDLCAN..LoanTransaction where LoanId = '31291634'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanTransaction ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Transaction table row :0: TransactionTypeId, Amount, Principal, CreatedByUserName
+Loan Transaction table row :1: 1 7000.00 7000.00 null
+Loan Transaction table row :2: 26 260.84 0.00 Scheduler
+Loan Transaction table row :3: 5 -364.53 -103.69 Scheduler
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all Transaction details in logger for investigation
+Test Finished : And log all Transaction details in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(EFTRequest as VARCHAR(2000)) AS EFTRequest from VitaPDLCAN..EFTLog where LoanId = '31291634'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ EFTLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan EFTLog table row :0: LoanId, CustomerId, EFTRequest
+Loan EFTLog table row :1: 31291634 4193653 <VitaEFTTransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Amount>7000.0000</Amount><BankTransactionID>0</BankTransactionID><BatchNumber>0</BatchNumber><DepositDate>0001-01-01T00:00:00</DepositDate><EffectiveDate>2022-11-01T00:00:00</EffectiveDate><ProductRefID>4</ProductRefID><SourceRefID>31132486</SourceRefID><SourceSystemID>3</SourceSystemID><StationID>946</StationID><SubProductID>10</SubProductID><TransactionType>Credit</TransactionType><Customer><Address>F-415 DUNSDON ST</Address><City>BRANTFORD</City><Country>CA</Country><FirstName>JOHNVSNQ</FirstName><LastName>MARKVSNQ</LastName><PostCode>N3P1W7</PostCode><State>ON</State></Customer><CustomerBank><BankABA/><BankAccount>642746</BankAccount><BranchID>00033</BranchID><InstitutionID>003</InstitutionID></CustomerBank><BankValueDate>2022-11-01T00:00:00</BankValueDate></VitaEFTTransaction>
+Loan EFTLog table row :2: 31291634 4193653 <VitaEFTTransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Amount>364.5300</Amount><BankTransactionID>0</BankTransactionID><BatchNumber>0</BatchNumber><DepositDate>0001-01-01T00:00:00</DepositDate><EffectiveDate>2022-11-01T00:00:00</EffectiveDate><ProductRefID>4</ProductRefID><SourceRefID>31132488</SourceRefID><SourceSystemID>3</SourceSystemID><StationID>946</StationID><SubProductID>9</SubProductID><TransactionType>Debit</TransactionType><Customer><Address>F-415 DUNSDON ST</Address><City>BRANTFORD</City><Country>CA</Country><FirstName>JOHNVSNQ</FirstName><LastName>MARKVSNQ</LastName><PostCode>N3P1W7</PostCode><State>ON</State></Customer><CustomerBank><BankABA/><BankAccount>642746</BankAccount><BranchID>00033</BranchID><InstitutionID>003</InstitutionID></CustomerBank><BankValueDate>2022-11-03T00:00:00</BankValueDate></VitaEFTTransaction>
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all EFTLog details in logger for investigation
+Test Finished : And log all EFTLog details in logger for investigation
+###################################################
+select CAST(ETransferLogId as VARCHAR(15)) AS ETransferLogId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(LoanPaymentId as VARCHAR(15)) AS LoanPaymentId , CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(ETransferRequest as VARCHAR(2000)) AS ETransferRequest,CAST(ETransferResponse as VARCHAR(2000)) AS ETransferResponse from VitaPDLCAN..ETransferLog where LoanId = '31291634'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ ETransferLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan ETransferLog table row :0: ETransferLogId, LoanId, LoanPaymentId, CustomerId, ETransferRequest, ETransferResponse
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all ETransferLog details in logger for investigation
+Test Finished : And log all ETransferLog details in logger for investigation
+Tests finished! Number of test Steps: 31

@@ -1,0 +1,53 @@
+###################################################
+Executing Scenario : TC05_CAN_Online_IL_Non Flinks_Verify, when user selects income source as Old Age Security the loan application should be Approved|TC_40_ILincomeOAG
+###################################################
+***********************************************************
+Start Time : 28_09_2022_14-18-39
+TC_40_ILINCOMEOAG
+TC_40_ILINCOMEOAG_DS1
+***********************************************************
+Test Started : And verify the phonenumber threshold based on phonenumber
+Test Finished : And verify the phonenumber threshold based on phonenumber
+=================Customer Name====================
+jtot
+=================Customer Name====================
+=================Customer Email====================
+jtotjohnssjm@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income sourece
+Test Finished : And Provides income sourece
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And verify the funding screen and chosses the funding type
+Test Finished : And verify the funding screen and chosses the funding type
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Verify the loan approved amount
+Test Finished : And Verify the loan approved amount
+Test Started : And chosses the either LPP yes or no
+Test Finished : And chosses the either LPP yes or no
+Test Started : And bank details
+Test Finished : And bank details
+Test Started : And Verify the loan documents
+Test Finished : And Verify the loan documents
+Tests finished! Number of test Steps : 20

@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : Log in and Logout|TC_05_bank_test
+###################################################
+***********************************************************
+Start Time : 05_01_2024_17-09-39
+TC_05_BANK_TEST
+TC_05_BANK_TEST_DS1
+***********************************************************
+Test Started : Given User opens the browser and navigates to the application
+Test Finished : Given User opens the browser and navigates to the application
+Tests finished! Number of test Steps : 2

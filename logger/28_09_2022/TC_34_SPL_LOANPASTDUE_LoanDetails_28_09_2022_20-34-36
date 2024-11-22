@@ -1,0 +1,123 @@
+###################################################
+Executing Scenario : TC12_CAN Online- Payment portal - Payment confirmation via Enter your details input method For SPL Loan and loan status Debt DUE|TC_34_SPL_LoanPastdue
+###################################################
+***********************************************************
+Start Time : 28_09_2022_20-34-36
+TC_34_SPL_LOANPASTDUE
+TC_34_SPL_LOANPASTDUE_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+Test Started : And Verify Loan status in UI
+Test Finished : And Verify Loan status in UI
+Test Started : And user should logout from online application
+Test Finished : And user should logout from online application
+Test Started : Given User opens the chrome and launch Payment portal url application
+Test Finished : Given User opens the chrome and launch Payment portal url application
+Test Started : And Enter correct Details in payment portal
+Test Finished : And Enter correct Details in payment portal
+Test Started : And Add Debit card details
+Test Finished : And Add Debit card details
+Test Started : And process debt due full payment
+Test Finished : And process debt due full payment
+*********************** LOAN DETAILS *****************************
+Loan Id : 23908616
+Customer Id : 4192360
+Loan Type Id : 1
+Loan Status Id : 23
+*********************** LOAN DETAILS *****************************
+Test Started : And Initialize Loan Details and write to excel
+Test Finished : And Initialize Loan Details and write to excel
+###################################################
+select CAST(CustomerId as VARCHAR(15)) AS CustomerId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(ParentLoanId AS VARCHAR(15)) AS ParentLoanId, CAST(channeltypeid as VARCHAR(15)) as channeltypeid, CAST(EffectiveDate as VARCHAR(25)) as EffectiveDate,CAST(APR AS VARCHAR(10)) AS APR, CAST(StateCode as VARCHAR(5)) as StateCode, CAST(LoanContractNumber AS VARCHAR(25)) AS LoanContractNumber, CAST(LoanStatusId as VARCHAR(5)) as LoanStatusId, CAST(LoanTypeId as VARCHAR(5)) as LoanTypeId,CAST(TotalAmount as VARCHAR(10)) as TotalAmount,CAST(Principal as VARCHAR(10)) as Principal,CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId,CAST(RepaymentTypeId as VARCHAR(5)) as RepaymentTypeId from VitaPDLCAN..Loan where LoanId = '23908616'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ Loan Details ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Details table row :0: CustomerId, LoanId, ParentLoanId, channeltypeid, EffectiveDate, APR, StateCode, LoanContractNumber, LoanStatusId, LoanTypeId, TotalAmount, Principal, PaymentTypeId, RepaymentTypeId
+Loan Details table row :1: 4192360 23908616 0 2 Aug 27 2022 12:00AM 171.09 ON S-4192360-280922-01 23 1 230.00 200.00 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Loan details in logger for investigation
+Test Finished : And log all the Loan details in logger for investigation
+###################################################
+select Note, LoanNoteTypeId from VitaPDLCAN..LoanNote where LoanId = '23908616'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanNote ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Note table row :0: Loan initiated  :  1
+Loan Note table row :1: ILGuardrailCustomerType-None  :  1
+Loan Note table row :2: Underwriting Approved  :  1
+Loan Note table row :3: Proof of Income is required.  :  44
+Loan Note table row :4: Net new customer review  :  44
+Loan Note table row :5: Decision response for SubmitAppForFraudHotlist approved.  :  1
+Loan Note table row :6: MDS SummaryScore: 1000  :  1
+Loan Note table row :7: TUMDSResult: Pass  :  1
+Loan Note table row :8: DEDecision:   :  1
+Loan Note table row :9: Loan has been sent to CSC for approval  :  1
+Loan Note table row :10:   :  51
+Loan Note table row :11: Loan queued for EFT funding  :  39
+Loan Note table row :12: Loan funded through EFT  :  40
+Loan Note table row :13: Loan finalized  :  1
+Loan Note table row :14: Loan has been activated  :  1
+Loan Note table row :15: Loan payment queued by EFT deposit  :  2
+Loan Note table row :16: Loan Paid in Full  :  2
+Loan Note table row :17: Loan payment has been returned  :  2
+Loan Note table row :18: Loan has been moved to debt  :  2
+Loan Note table row :19: Checkmate payment  :  2
+Loan Note table row :20: Loan Paid in Full  :  2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all the Note details in logger for investigation
+Test Finished : And log all the Note details in logger for investigation
+###################################################
+select CAST(Amount as VARCHAR(15)) AS Amount, CAST(Principal as VARCHAR(15)) AS Principal, CAST(Returned AS VARCHAR(5)) AS Returned, CAST(PaymentTypeId as VARCHAR(5)) as PaymentTypeId, CAST(LoanPaymentStatusId as VARCHAR(5)) as LoanPaymentStatusId from VitaPDLCAN..LoanPayment where LoanId = '23908616'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanPayment ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Payments table row :0: Amount, Principal, Returned, PaymentTypeId, LoanPaymentStatusId
+Loan Payments table row :1: 200.00 200.00 0 4 4
+Loan Payments table row :2: 230.00 200.00 1 4 4
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all payment details in logger for investigation
+Test Finished : And log all payment details in logger for investigation
+###################################################
+select CAST(TransactionTypeId as VARCHAR(15)) as TransactionTypeId, CAST(Amount as VARCHAR(15)) as Amount, CAST(Principal as VARCHAR(15)) as Principal, CAST(CreatedByUserName as VARCHAR(15)) as CreatedByUserName from VitaPDLCAN..LoanTransaction where LoanId = '23908616'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ LoanTransaction ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan Transaction table row :0: TransactionTypeId, Amount, Principal, CreatedByUserName
+Loan Transaction table row :1: 1 230.00 200.00 null
+Loan Transaction table row :2: 3 -230.00 -200.00 Scheduler
+Loan Transaction table row :3: 19 230.00 200.00 Return
+Loan Transaction table row :4: 28 25.00 0.00 Return
+Loan Transaction table row :5: 3 -255.00 -200.00 DEBT
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all Transaction details in logger for investigation
+Test Finished : And log all Transaction details in logger for investigation
+###################################################
+select CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(EFTRequest as VARCHAR(2000)) AS EFTRequest from VitaPDLCAN..EFTLog where LoanId = '23908616'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ EFTLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan EFTLog table row :0: LoanId, CustomerId, EFTRequest
+Loan EFTLog table row :1: 23908616 4192360 <VitaEFTTransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Amount>200.0000</Amount><BankTransactionID>0</BankTransactionID><BatchNumber>0</BatchNumber><DepositDate>0001-01-01T00:00:00</DepositDate><EffectiveDate>2022-09-28T00:00:00</EffectiveDate><ProductRefID>1</ProductRefID><SourceRefID>21531937</SourceRefID><SourceSystemID>3</SourceSystemID><StationID>414</StationID><SubProductID>8</SubProductID><TransactionType>Credit</TransactionType><Customer><Address>F-415 DUNSDON ST</Address><City>BRANTFORD</City><Country>CA</Country><FirstName>JOHNHWOH</FirstName><LastName>MARKHWOH</LastName><PostCode>N3P1W7</PostCode><State>ON</State></Customer><CustomerBank><BankABA/><BankAccount>123123</BankAccount><BranchID>00033</BranchID><InstitutionID>003</InstitutionID></CustomerBank><BankValueDate>2022-09-28T00:00:00</BankValueDate></VitaEFTTransaction>
+Loan EFTLog table row :2: 23908616 4192360 <VitaEFTTransaction xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><Amount>230.0000</Amount><BankTransactionID>0</BankTransactionID><BatchNumber>0</BatchNumber><DepositDate>0001-01-01T00:00:00</DepositDate><EffectiveDate>2022-09-28T00:00:00</EffectiveDate><ProductRefID>1</ProductRefID><SourceRefID>21531939</SourceRefID><SourceSystemID>3</SourceSystemID><StationID>414</StationID><SubProductID>10</SubProductID><TransactionType>Debit</TransactionType><Customer><Address>F-415 DUNSDON ST</Address><City>BRANTFORD</City><Country>CA</Country><FirstName>JOHNHWOH</FirstName><LastName>MARKHWOH</LastName><PostCode>N3P1W7</PostCode><State>ON</State></Customer><CustomerBank><BankABA/><BankAccount>123123</BankAccount><BranchID>00033</BranchID><InstitutionID>003</InstitutionID></CustomerBank><BankValueDate>2022-09-28T00:00:00</BankValueDate></VitaEFTTransaction>
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all EFTLog details in logger for investigation
+Test Finished : And log all EFTLog details in logger for investigation
+###################################################
+select CAST(ETransferLogId as VARCHAR(15)) AS ETransferLogId, CAST(LoanId as VARCHAR(15)) AS LoanId, CAST(LoanPaymentId as VARCHAR(15)) AS LoanPaymentId , CAST(CustomerId as VARCHAR(15)) AS CustomerId , CAST(ETransferRequest as VARCHAR(2000)) AS ETransferRequest,CAST(ETransferResponse as VARCHAR(2000)) AS ETransferResponse from VitaPDLCAN..ETransferLog where LoanId = '23908616'
+###################################################
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^ ETransferLog ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Loan ETransferLog table row :0: ETransferLogId, LoanId, LoanPaymentId, CustomerId, ETransferRequest, ETransferResponse
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Started : And log all ETransferLog details in logger for investigation
+Test Finished : And log all ETransferLog details in logger for investigation
+Tests finished! Number of test Steps: 16

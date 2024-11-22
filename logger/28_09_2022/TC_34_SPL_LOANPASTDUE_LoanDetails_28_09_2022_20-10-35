@@ -1,0 +1,64 @@
+###################################################
+Executing Scenario : TC12_CAN Online- Payment portal - Payment confirmation via Enter your details input method For SPL Loan and loan status Debt DUE|TC_34_SPL_LoanPastdue
+###################################################
+***********************************************************
+Start Time : 28_09_2022_20-10-35
+TC_34_SPL_LOANPASTDUE
+TC_34_SPL_LOANPASTDUE_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+=================Customer Name====================
+hwoh
+=================Customer Name====================
+=================Customer Email====================
+hwohjohnmcfl@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl
+Test Finished : And User provides basic information for spl
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And enter valid OTP
+Test Finished : And enter valid OTP
+Test Started : And select the funding types
+Test Finished : And select the funding types
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Loan approval screen
+Test Finished : And Loan approval screen
+Test Started : And Loan approved final offer
+Test Finished : And Loan approved final offer
+Test Started : And click on next button
+Test Finished : And click on next button
+Test Started : And esing document SPL and back to dashboard
+Test Finished : And esing document SPL and back to dashboard
+Test Started : And verify the DB validatioin
+Test Finished : And verify the DB validatioin
+Test Started : Then Make SPL scheduler payment
+Test Finished : Then Make SPL scheduler payment
+Test Started : And Wait storm task
+Test Finished : And Wait storm task

@@ -1,0 +1,27 @@
+###################################################
+Executing Scenario : TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment(Do payment for 2 months past due amount)|TC_51_IL_two_Pastdue
+###################################################
+***********************************************************
+Start Time : 29_09_2022_22-25-31
+TC_51_IL_TWO_PASTDUE
+TC_51_IL_TWO_PASTDUE_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : Given User opens the chrome and launch url application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : When User login online Application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : When User login online Application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : And Verify Loan status in UI(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : And Verify Loan status in UI(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : And user should logout from online application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : And user should logout from online application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : Given User opens the chrome and launch Payment portal url application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : Given User opens the chrome and launch Payment portal url application(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : And Enter correct Details in payment portal(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : And Enter correct Details in payment portal(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : And Add Debit card details(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : And Add Debit card details(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : And Process partial payment(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : And Process partial payment(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Started : And Enter correct Details in payment portal(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Test Finished : And Enter correct Details in payment portal(Scenario: TC04_CAN Online-Payment Portal_Enter your details_Actual Past due date should display_IL loan past due for 3 months_Partial Payment
+Tests finished! Number of test Steps: 10

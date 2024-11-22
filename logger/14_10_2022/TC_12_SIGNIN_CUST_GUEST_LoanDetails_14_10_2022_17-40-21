@@ -1,0 +1,33 @@
+###################################################
+Executing Scenario : Test case 91527: Verify Sign in page UI update continue as guest customer after About you page.|TC_12_SignIn_Cust_Guest
+###################################################
+***********************************************************
+Start Time : 14_10_2022_17-40-21
+TC_12_SIGNIN_CUST_GUEST
+TC_12_SIGNIN_CUST_GUEST_DS1
+***********************************************************
+Test Started : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Finished : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Started : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Finished : And User clicks Apply Now on Money Mart Installment Loans page.
+===EMAIL ADDRESS===
+henr_123@yopmail.com
+===EMAIL ADDRESS===
+Test Started : And User entres required information on tell us about you page.
+Test Finished : And User entres required information on tell us about you page.
+Test Started : And User is on FlinkConnect, 2ways to apply page.
+Test Finished : And User is on FlinkConnect, 2ways to apply page.
+Test Started : And User clickson SignIn link on FlinkConnect page.
+Test Finished : And User clickson SignIn link on FlinkConnect page.
+Test Started : And User enters id and continue as guest on Sign in to Money Mart Popup.
+Test Finished : And User enters id and continue as guest on Sign in to Money Mart Popup.
+Test Started : And User selects Standard option for entering information and clicks Next.
+Test Finished : And User selects Standard option for entering information and clicks Next.
+Test Started : And User selects SignIn button on Profile Summary page.
+Test Finished : And User selects SignIn button on Profile Summary page.
+Test Started : And User validates the email displayed on Sign in to Money Mart Popup.
+Test Finished : And User validates the email displayed on Sign in to Money Mart Popup.
+Test Started : And User clicks continue as guest again.
+Test Finished : And User clicks continue as guest again.
+Test Started : And User enters random Employer information on Profile Summary page.
+Test Finished : And User enters random Employer information on Profile Summary page.

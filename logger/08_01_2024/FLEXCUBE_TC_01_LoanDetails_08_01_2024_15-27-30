@@ -1,0 +1,25 @@
+###################################################
+Executing Scenario : Successful login with valid credentials |Flexcube_TC_01
+###################################################
+***********************************************************
+Start Time : 08_01_2024_15-27-30
+FLEXCUBE_TC_01
+FLEXCUBE_TC_01_DS1
+***********************************************************
+Test Started : Given User open the Flexcube app url in the browser
+Test Finished : Given User open the Flexcube app url in the browser
+Test Started : Then Verify the Flexcube app login page
+Test Finished : Then Verify the Flexcube app login page
+Test Started : When the user enter the  "valid_login_name" and "password"
+Test Finished : When the user enter the  "valid_login_name" and "password"
+Test Started : And the user clicks on the Sign in button
+Test Finished : And the user clicks on the Sign in button
+Test Started : Then verify user navigate to flexcube home page and a popup message should displayed in the screen
+Test Finished : Then verify user navigate to flexcube home page and a popup message should displayed in the screen
+Test Started : When user clicks on the Ok button in the popup screen
+Test Finished : When user clicks on the Ok button in the popup screen
+Test Started : Then Verify the home page
+Test Finished : Then Verify the home page
+Test Started : When user clicks on the user profile icon and select sign off option from the list
+Test Finished : When user clicks on the user profile icon and select sign off option from the list
+Tests finished! Number of test Steps : 9

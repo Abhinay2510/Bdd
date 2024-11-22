@@ -1,0 +1,82 @@
+###################################################
+Executing Scenario : Online_Existing_SPL_Crosssell|TC_17_Downsell_SPL_fund
+###################################################
+***********************************************************
+Start Time : 27_09_2022_21-11-40
+TC_17_DOWNSELL_SPL_FUND
+TC_17_DOWNSELL_SPL_FUND_DS1
+***********************************************************
+=================Customer Name====================
+aett
+=================Customer Name====================
+=================Customer Email====================
+aettjohnvffa@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And Genareted sin
+Test Finished : And Genareted sin
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And verify the funding screen and chosses the funding type
+Test Finished : And verify the funding screen and chosses the funding type
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Verify the loan approved amount
+Test Finished : And Verify the loan approved amount
+Test Started : And chosses the either LPP yes or no
+Test Finished : And chosses the either LPP yes or no
+Test Started : And bank details
+Test Finished : And bank details
+Test Started : And Verify the loan documents
+Test Finished : And Verify the loan documents
+Test Started : And user should logout from online application
+Test Finished : And user should logout from online application
+Test Started : And verify the DB validatioin
+Test Finished : And verify the DB validatioin
+Test Started : And Backdate loan and get make a payment button
+Test Finished : And Backdate loan and get make a payment button
+Test Started : Then Make a full payment
+Test Finished : Then Make a full payment
+Test Started : And Backdate loan 180days
+Test Finished : And Backdate loan 180days
+Test Started : And update loan contract
+Test Finished : And update loan contract
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : And User is on homepage clicks Instalment Loans under Loans tab.
+Test Finished : And User is on homepage clicks Instalment Loans under Loans tab.
+Test Started : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Finished : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Started : And enter required previous information on tell us about you page downsell
+Test Finished : And enter required previous information on tell us about you page downsell
+Test Started : And User selects Standard option for entering information and clicks Next.
+Test Finished : And User selects Standard option for entering information and clicks Next.
+Test Started : And Verify the downsell income information
+Test Finished : And Verify the downsell income information

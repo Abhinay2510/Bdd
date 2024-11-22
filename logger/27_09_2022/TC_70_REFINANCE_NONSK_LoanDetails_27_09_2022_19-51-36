@@ -1,0 +1,19 @@
+###################################################
+Executing Scenario : TC08_Validating_CAN Online_Personal Details in summary page_Refinance Parent Loan_SK State address  & Child Loan NON SK Flinks eligible province|TC_70_Refinance_nonsk
+###################################################
+***********************************************************
+Start Time : 27_09_2022_19-51-36
+TC_70_REFINANCE_NONSK
+TC_70_REFINANCE_NONSK_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+Test Started : And customer chooses IL Jsy card
+Test Finished : And customer chooses IL Jsy card
+Test Started : And select the without flinks option
+Test Finished : And select the without flinks option
+Test Started : And Verify the reloan income information
+Test Finished : And Verify the reloan income information
+Tests finished! Number of test Steps : 6

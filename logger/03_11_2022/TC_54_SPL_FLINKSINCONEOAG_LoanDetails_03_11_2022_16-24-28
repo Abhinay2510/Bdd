@@ -1,0 +1,16 @@
+###################################################
+Executing Scenario : TC02_CAN_Online_SPL_ Flinks_Verify, when employment status as "Old Age Security" , loan application should be denied|TC_54_SPL_flinksinconeOAG
+###################################################
+***********************************************************
+Start Time : 03_11_2022_16-24-28
+TC_54_SPL_FLINKSINCONEOAG
+TC_54_SPL_FLINKSINCONEOAG_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : When Create customer
+Test Finished : When Create customer

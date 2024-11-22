@@ -1,0 +1,35 @@
+###################################################
+Executing Scenario : Online_IL_flinks_Canada_Pension_Employeetype|TC_22_DT_PROD_IL_Flinks
+###################################################
+***********************************************************
+Start Time : 04_11_2022_07-52-23
+TC_22_DT_PROD_IL_FLINKS
+TC_22_DT_PROD_IL_FLINKS_DS1
+***********************************************************
+Test Started : And Genareted sin
+Test Finished : And Genareted sin
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select flink opt in
+Test Finished : And select flink opt in
+Test Started : And check the flinks income details
+Test Finished : And check the flinks income details
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And Verify the phone OTP and enter valid OTP for autofund
+Test Finished : And Verify the phone OTP and enter valid OTP for autofund
+Tests finished! Number of test Steps : 14

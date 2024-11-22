@@ -1,0 +1,37 @@
+###################################################
+Executing Scenario : TC02_Canada Online - Ontario SPL in employment page -revious pay cheque total field shows wrong date|TC_15_SPL_Emp_prevtot_wrngdate
+###################################################
+***********************************************************
+Start Time : 28_09_2022_15-25-44
+TC_15_SPL_EMP_PREVTOT_WRNGDATE
+TC_15_SPL_EMP_PREVTOT_WRNGDATE_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : And verify the phonenumber threshold based on phonenumber
+Test Finished : And verify the phonenumber threshold based on phonenumber
+=================Customer Name====================
+hagh
+=================Customer Name====================
+=================Customer Email====================
+haghjohnqbpd@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User selects required province - Ontario
+Test Finished : And User selects required province - Ontario
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information for weekly frequency caption validation
+Test Finished : And Provides income information for weekly frequency caption validation
+Tests finished! Number of test Steps: 12

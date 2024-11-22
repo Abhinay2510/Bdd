@@ -1,0 +1,62 @@
+###################################################
+Executing Scenario : New_Reduce approved amount & Increase Loan term|TC_74_NewIncreaseterm
+###################################################
+***********************************************************
+Start Time : 02_11_2022_20-36-51
+TC_74_NEWINCREASETERM
+TC_74_NEWINCREASETERM_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+wvhp
+=================Customer Name====================
+448220
+=================Customer Email====================
+wvhpjohntbpi@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And verify the funding screen and chosses the funding type
+Test Finished : And verify the funding screen and chosses the funding type
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Verify the loan approved amount
+Test Finished : And Verify the loan approved amount
+Message:::::::::::::::::::::The loan customization cannot be made due to the following reason:
+The desired loan term requires a loan amount of $8,001.00 or more.
+Test Started : And choose IL and Reduce approved amount and Increase Loan term on LPP Screen
+Test Finished : And choose IL and Reduce approved amount and Increase Loan term on LPP Screen
+Test Started : And bank details
+Test Finished : And bank details
+Test Started : And Verify the loan documents
+Test Finished : And Verify the loan documents
+Tests finished! Number of test Steps : 23

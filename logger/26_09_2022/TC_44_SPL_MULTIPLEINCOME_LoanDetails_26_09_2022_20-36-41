@@ -1,0 +1,38 @@
+###################################################
+Executing Scenario : TC18_CAN_Online_SPL_Non Flinks_Verify, when user selects multiple income source, the loan application should be declined when income is invalid|TC_44_SPL_multipleincome
+###################################################
+***********************************************************
+Start Time : 26_09_2022_20-36-41
+TC_44_SPL_MULTIPLEINCOME
+TC_44_SPL_MULTIPLEINCOME_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+wedu
+=================Customer Name====================
+=================Customer Email====================
+wedujohnofab@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl
+Test Finished : And User provides basic information for spl
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides multiple income source
+Test Finished : And Provides multiple income source
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application

@@ -1,0 +1,23 @@
+###################################################
+Executing Scenario : TC12_CAN Online- Payment portal - Payment confirmation via Enter your details input method For SPL Loan and loan status Debt DUE|TC_34_SPL_LoanPastdue
+###################################################
+***********************************************************
+Start Time : 04_11_2022_01-36-07
+TC_34_SPL_LOANPASTDUE
+TC_34_SPL_LOANPASTDUE_DS1
+***********************************************************
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Loan approval screen
+Test Finished : And Loan approval screen
+Test Started : And Loan approved final offer
+Test Finished : And Loan approved final offer
+Test Started : And click on next button
+Test Finished : And click on next button
+Tests finished! Number of test Steps : 8

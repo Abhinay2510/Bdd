@@ -1,0 +1,22 @@
+###################################################
+Executing Scenario : Test Case 102377: TC03_CAN_Online_SPL_ Flinks_Verify the system should display the income source received from Flinks for "Canada Pension Plan" |TC_47_SPL_flinkCPPincome
+###################################################
+***********************************************************
+Start Time : 04_10_2022_14-54-31
+TC_47_SPL_FLINKCPPINCOME
+TC_47_SPL_FLINKCPPINCOME_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses SPL loan
+Test Finished : And customer chooses SPL loan
+Test Started : And User provides basic information for spl flinks
+Test Finished : And User provides basic information for spl flinks

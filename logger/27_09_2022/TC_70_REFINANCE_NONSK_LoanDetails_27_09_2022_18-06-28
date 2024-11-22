@@ -1,0 +1,67 @@
+###################################################
+Executing Scenario : TC08_Validating_CAN Online_Personal Details in summary page_Refinance Parent Loan_SK State address  & Child Loan NON SK Flinks eligible province|TC_70_Refinance_nonsk
+###################################################
+***********************************************************
+Start Time : 27_09_2022_18-06-28
+TC_70_REFINANCE_NONSK
+TC_70_REFINANCE_NONSK_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+viih
+=================Customer Name====================
+=================Customer Email====================
+viihjohnmjpl@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And verify the funding screen and chosses the funding type
+Test Finished : And verify the funding screen and chosses the funding type
+Test Started : And add the bank details
+Test Finished : And add the bank details
+Test Started : And upload document
+Test Finished : And upload document
+Test Started : And verify the loan status and update loan status in DB
+Test Finished : And verify the loan status and update loan status in DB
+Test Started : And click on Finalize and e-Sign Loan Documents
+Test Finished : And click on Finalize and e-Sign Loan Documents
+Test Started : And Verify the loan approved amount
+Test Finished : And Verify the loan approved amount
+Test Started : And chosses the either LPP yes or no
+Test Finished : And chosses the either LPP yes or no
+Test Started : And click next button
+Test Finished : And click next button
+Test Started : And Verify the loan documents
+Test Finished : And Verify the loan documents
+Test Started : Then Make IL scheduler payments
+Test Finished : Then Make IL scheduler payments
+Test Started : Then Run the TU query for refinance
+Test Finished : Then Run the TU query for refinance
+Test Started : And update loan contract
+Test Finished : And update loan contract
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+Test Started : And customer chooses IL Jsy card
+Test Finished : And customer chooses IL Jsy card
+Tests finished! Number of test Steps : 27

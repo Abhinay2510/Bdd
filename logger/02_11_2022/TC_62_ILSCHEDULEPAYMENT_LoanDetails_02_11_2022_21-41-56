@@ -1,0 +1,29 @@
+###################################################
+Executing Scenario : Test Case 38536: Auto_Verify return of an IL schedule payment submitted|TC_62_ILschedulepayment
+###################################################
+***********************************************************
+Start Time : 02_11_2022_21-41-56
+TC_62_ILSCHEDULEPAYMENT
+TC_62_ILSCHEDULEPAYMENT_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+=================Customer Name====================
+hhsc
+=================Customer Name====================
+917101
+=================Customer Email====================
+hhscjohntryo@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address

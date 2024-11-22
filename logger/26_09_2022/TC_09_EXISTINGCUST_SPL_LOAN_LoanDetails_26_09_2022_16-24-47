@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : verify PopUp after checking for open loan when Entered same details of existing user (Without SIN) having active SPL loan|TC_09_ExistingCust_SPL_Loan
+###################################################
+***********************************************************
+Start Time : 26_09_2022_16-24-47
+TC_09_EXISTINGCUST_SPL_LOAN
+TC_09_EXISTINGCUST_SPL_LOAN_DS1
+***********************************************************
+Test Started : Given Genareted sin(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : Given Genareted sin(Scenario: verify PopUp after checking for open loan when Entered same details of existing user 
+Tests finished! Number of test Steps : 2

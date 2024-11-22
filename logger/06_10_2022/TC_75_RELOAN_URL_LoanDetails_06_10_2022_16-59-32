@@ -1,0 +1,20 @@
+###################################################
+Executing Scenario : TC04_JSY_Reloan_Flinks_AutoApproval_Reduce approved amount & Loan term|TC_75_Reloan_url
+###################################################
+***********************************************************
+Start Time : 06_10_2022_16-59-32
+TC_75_RELOAN_URL
+TC_75_RELOAN_URL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+fpeq
+=================Customer Name====================
+=================Customer Email====================
+fpeqjohntedn@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold

@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : Successful Account creation for the individual |Flexcube_TC_02
+###################################################
+***********************************************************
+Start Time : 30_01_2024_15-33-55
+FLEXCUBE_TC_02
+FLEXCUBE_TC_02_DS1
+***********************************************************
+Test Started : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Test Finished : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Tests finished! Number of test Steps : 4

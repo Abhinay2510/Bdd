@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : TC01_CAN Online- Payment portal - Sign in Modal shows When customer location in DB failed_Invalid user details in Enter your details input method|TC_33_IL_Invaliduserdetails
+###################################################
+***********************************************************
+Start Time : 28_09_2022_16-25-16
+TC_33_IL_INVALIDUSERDETAILS
+TC_33_IL_INVALIDUSERDETAILS_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch Payment portal url application
+Test Finished : Given User opens the chrome and launch Payment portal url application
+Tests finished! Number of test Steps : 2

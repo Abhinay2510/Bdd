@@ -1,0 +1,21 @@
+###################################################
+Executing Scenario : Log in and Logout|TC_05_bank_test
+###################################################
+***********************************************************
+Start Time : 22_09_2023_07-01-08
+TC_05_BANK_TEST
+TC_05_BANK_TEST_DS1
+***********************************************************
+Test Started : Given User opens the browser and navigates to the application
+Test Finished : Given User opens the browser and navigates to the application
+Test Started : When User enters "Abhinay" and "infotech@1"
+Test Finished : When User enters "Abhinay" and "infotech@1"
+Test Started : And User enters a 4 digit number
+Test Finished : And User enters a 4 digit number
+Test Started : And User clicks on the Login button
+Test Finished : And User clicks on the Login button
+Test Started : And User clicks on the Apply Now button
+Test Finished : And User clicks on the Apply Now button
+Test Started : And User scrolls down until the checkbox is visible
+Test Finished : And User scrolls down until the checkbox is visible
+Tests finished! Number of test Steps : 7

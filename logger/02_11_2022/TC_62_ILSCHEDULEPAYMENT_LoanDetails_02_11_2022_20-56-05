@@ -1,0 +1,24 @@
+###################################################
+Executing Scenario : Test Case 38536: Auto_Verify return of an IL schedule payment submitted|TC_62_ILschedulepayment
+###################################################
+***********************************************************
+Start Time : 02_11_2022_20-56-05
+TC_62_ILSCHEDULEPAYMENT
+TC_62_ILSCHEDULEPAYMENT_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+=================Customer Name====================
+mrzd
+=================Customer Name====================
+743398
+=================Customer Email====================
+mrzdjohnytnw@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the email threshold
+Test Finished : And verify the email threshold
+Tests finished! Number of test Steps : 5

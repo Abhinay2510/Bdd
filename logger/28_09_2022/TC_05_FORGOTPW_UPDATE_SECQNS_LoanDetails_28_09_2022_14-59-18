@@ -1,0 +1,37 @@
+###################################################
+Executing Scenario : Test case 81639: Verify that new Forgot password when customer first update security question and answer then try do forgot password|TC_05_ForgotPW_Update_SecQns
+###################################################
+***********************************************************
+Start Time : 28_09_2022_14-59-18
+TC_05_FORGOTPW_UPDATE_SECQNS
+TC_05_FORGOTPW_UPDATE_SECQNS_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given User opens the chrome and launch TDPOD application.
+Test Finished : Given User opens the chrome and launch TDPOD application.
+=================Customer Name====================
+nwpz
+=================Customer Name====================
+=================Customer Email====================
+nwpzjohnpdwp@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And User clicks on SignUp Now link.
+Test Finished : And User clicks on SignUp Now link.
+Test Started : And User verifies SignUp page details and fills information.
+Test Finished : And User verifies SignUp page details and fills information.
+Test Started : And User verifies customer creation and clicks Sign out.
+Test Finished : And User verifies customer creation and clicks Sign out.
+Test Started : And User clicks SignIn from opened home page.
+Test Finished : And User clicks SignIn from opened home page.
+Test Started : And User again enters same Login id/Password detials and click login.
+Test Finished : And User again enters same Login id/Password detials and click login.
+Test Started : And User clicks on profile to update the scurity question.
+Test Finished : And User clicks on profile to update the scurity question.
+Test Started : And User updates the security question and saves.
+Test Finished : And User updates the security question and saves.
+Test Started : And User SignOuts from Profile Page.
+Test Finished : And User SignOuts from Profile Page.
+Tests finished! Number of test Steps : 12

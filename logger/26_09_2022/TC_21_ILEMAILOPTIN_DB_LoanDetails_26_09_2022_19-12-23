@@ -1,0 +1,33 @@
+###################################################
+Executing Scenario : TC01_CAN Online_IL_New Customer(Non Flinks)_Verify Email opt-in In About You Page is True in DB|TC_21_ILEmailOptIn_DB
+###################################################
+***********************************************************
+Start Time : 26_09_2022_19-12-23
+TC_21_ILEMAILOPTIN_DB
+TC_21_ILEMAILOPTIN_DB_DS1
+***********************************************************
+Test Started : Given Genareted sin(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : Given Genareted sin(Scenario: TC01_CAN Online_IL_New Customer
+Test Started : Given user click on signup customer(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : Given user click on signup customer(Scenario: TC01_CAN Online_IL_New Customer
+Test Started : And verify the phonenumber threshold based on phonenumber(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : And verify the phonenumber threshold based on phonenumber(Scenario: TC01_CAN Online_IL_New Customer
+=================Customer Name====================
+tzgo
+=================Customer Name====================
+=================Customer Email====================
+tzgojohnoppm@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : And Pre-requisite data generation for customer(Scenario: TC01_CAN Online_IL_New Customer
+Test Started : When Create customer(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : When Create customer(Scenario: TC01_CAN Online_IL_New Customer
+Test Started : And Run the TU query(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : And Run the TU query(Scenario: TC01_CAN Online_IL_New Customer
+Test Started : And customer chooses IL loan(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : And customer chooses IL loan(Scenario: TC01_CAN Online_IL_New Customer
+Test Started : And User provides basic information to verify eMailOptin flag(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : And User provides basic information to verify eMailOptin flag(Scenario: TC01_CAN Online_IL_New Customer
+Test Started : Then Verify IsEmailOptIn Flag in DB should be true(Scenario: TC01_CAN Online_IL_New Customer
+Test Finished : Then Verify IsEmailOptIn Flag in DB should be true(Scenario: TC01_CAN Online_IL_New Customer
+Tests finished! Number of test Steps: 10

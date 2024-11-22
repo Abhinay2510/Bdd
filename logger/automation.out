@@ -1,0 +1,159 @@
+2024-01-31 10:48:45 INFO  TestBase:92 - Static Initialization done
+2024-01-31 10:48:45 INFO  TestBase:95 - Removed Sheet
+2024-01-31 10:48:46 INFO  TestBase:98 - Added Sheet
+2024-01-31 10:48:46 INFO  Xls_Reader:1030 - Creating empty sheet for report
+2024-01-31 10:48:46 INFO  TestBase:101 - Created Sheet
+2024-01-31 10:48:46 INFO  TestBase:81 - Report folder structure already available : D:\Flexibi\autoamtionFramworks\Automation_Framewroks\Automation_Framewroks\BDDFramework\flexibplusBDD\flexibplus_bdd\logger\31_01_2024
+2024-01-31 10:48:46 INFO  TestBase:213 - Scenario data initialized.
+2024-01-31 10:48:57 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:48:57 INFO  CustomListener:74 - Test Started : Given User opens the chrome browser and launches the Oracle Flexcube Application
+2024-01-31 10:48:57 INFO  CustomListener:90 - Test Finished : Given User opens the chrome browser and launches the Oracle Flexcube Application
+2024-01-31 10:48:57 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:48:57 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:48:57 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:48:57 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:48:57 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:05 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:17 INFO  TestBase:254 - User 
+2024-01-31 10:49:17 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:17 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:18 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:18 INFO  CustomListener:74 - Test Started : When Maker enter the login detailes and sigin into the Flexcube Application
+2024-01-31 10:49:18 INFO  CustomListener:90 - Test Finished : When Maker enter the login detailes and sigin into the Flexcube Application
+2024-01-31 10:49:18 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:18 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:18 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:18 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:20 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:20 INFO  CustomListener:74 - Test Started : And Enter fastpath code "STDCIF" and click on go button
+2024-01-31 10:49:20 INFO  CustomListener:90 - Test Finished : And Enter fastpath code "STDCIF" and click on go button
+2024-01-31 10:49:29 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:29 INFO  CustomListener:74 - Test Started : And Verify the Customer Mainteance Screen is displayed
+2024-01-31 10:49:29 INFO  CustomListener:90 - Test Finished : And Verify the Customer Mainteance Screen is displayed
+2024-01-31 10:49:29 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:29 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:29 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:29 INFO  CustomListener:74 - Test Started : And Click on New Option in the screen
+2024-01-31 10:49:29 INFO  CustomListener:90 - Test Finished : And Click on New Option in the screen
+2024-01-31 10:49:29 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:29 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:29 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:29 INFO  CustomListener:74 - Test Started : And user click on "Individual" customer type
+2024-01-31 10:49:29 INFO  CustomListener:90 - Test Finished : And user click on "Individual" customer type
+2024-01-31 10:49:29 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:30 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:30 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:30 INFO  CustomListener:74 - Test Started : And Click on Custmer no P button in the screen
+2024-01-31 10:49:30 INFO  CustomListener:90 - Test Finished : And Click on Custmer no P button in the screen
+2024-01-31 10:49:30 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:30 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:30 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:30 INFO  CustomListener:74 - Test Started : And user click and enter Full Name "CustomerFullName"
+2024-01-31 10:49:30 INFO  CustomListener:90 - Test Finished : And user click and enter Full Name "CustomerFullName"
+2024-01-31 10:49:30 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:31 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:31 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:31 INFO  CustomListener:74 - Test Started : And User click and enter Short Name "CustomerShortName"
+2024-01-31 10:49:31 INFO  CustomListener:90 - Test Finished : And User click and enter Short Name "CustomerShortName"
+2024-01-31 10:49:31 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:31 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:31 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:31 INFO  CustomListener:74 - Test Started : And Enter Customer Category
+2024-01-31 10:49:31 INFO  CustomListener:90 - Test Finished : And Enter Customer Category
+2024-01-31 10:49:31 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:32 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:32 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:32 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:32 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:32 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:33 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:33 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:33 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:33 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:33 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:34 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:34 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:34 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:34 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:34 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:34 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:34 INFO  CustomListener:74 - Test Started : And User Fills all Mandatory field under Personal tab
+2024-01-31 10:49:34 INFO  CustomListener:90 - Test Finished : And User Fills all Mandatory field under Personal tab
+2024-01-31 10:49:34 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:36 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:36 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:36 INFO  CustomListener:74 - Test Started : And User click on Additional tab
+2024-01-31 10:49:36 INFO  CustomListener:90 - Test Finished : And User click on Additional tab
+2024-01-31 10:49:36 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:37 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:37 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:49:37 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:49:37 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:37 INFO  CustomListener:74 - Test Started : When Enter data of location and Media fields under additional tab
+2024-01-31 10:49:37 INFO  CustomListener:90 - Test Finished : When Enter data of location and Media fields under additional tab
+2024-01-31 10:49:37 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:37 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:37 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:37 INFO  CustomListener:74 - Test Started : And Click on Save button
+2024-01-31 10:49:37 INFO  CustomListener:90 - Test Finished : And Click on Save button
+2024-01-31 10:49:39 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:39 INFO  CustomListener:74 - Test Started : And Remarked pop up should be display
+2024-01-31 10:49:39 INFO  CustomListener:90 - Test Finished : And Remarked pop up should be display
+2024-01-31 10:49:39 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:40 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:40 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:40 INFO  CustomListener:74 - Test Started : And user click on Ok button
+2024-01-31 10:49:40 INFO  CustomListener:90 - Test Finished : And user click on Ok button
+2024-01-31 10:49:52 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:52 INFO  CustomListener:74 - Test Started : And Override description popup should be displayed
+2024-01-31 10:49:52 INFO  CustomListener:90 - Test Finished : And Override description popup should be displayed
+2024-01-31 10:49:53 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:49:54 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:49:54 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:49:54 INFO  CustomListener:74 - Test Started : When user click on Accept button in the popup
+2024-01-31 10:49:54 INFO  CustomListener:90 - Test Finished : When user click on Accept button in the popup
+2024-01-31 10:49:54 INFO  OnlineActions:878 - Switching to Parent IFrame in the screen
+2024-01-31 10:50:04 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:51:07 ERROR OnlineActions:177 - ERROR WHILE TRYING TO CLICK ON THE SPECIFIED WEB ELEMENT : Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //input[@title='Ok']' (tried for 45 second(s) with 2000 milliseconds interval)
+2024-01-31 10:51:07 INFO  CustomListener:74 - Test Started : And Successfully Created the customer number and sent to Checker for the Authorization
+2024-01-31 10:51:07 INFO  CustomListener:90 - Test Finished : And Successfully Created the customer number and sent to Checker for the Authorization
+2024-01-31 10:51:08 INFO  TestBase:230 - Taking screenshot for every step in the scearnario
+2024-01-31 10:51:09 INFO  hooks:147 - ===onTestFailure Start===
+2024-01-31 10:51:11 INFO  TestBase:213 - Scenario data initialized.
+2024-01-31 10:51:19 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:51:19 INFO  CustomListener:74 - Test Started : Given User opens the chrome browser and launches the Oracle Flexcube Application
+2024-01-31 10:51:19 INFO  CustomListener:90 - Test Finished : Given User opens the chrome browser and launches the Oracle Flexcube Application
+2024-01-31 10:51:19 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:51:19 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:51:19 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:51:20 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:51:20 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:51:27 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:51:38 INFO  TestBase:254 - User 
+2024-01-31 10:51:38 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:51:38 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:51:38 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:51:38 INFO  CustomListener:74 - Test Started : When Maker enter the login detailes and sigin into the Flexcube Application
+2024-01-31 10:51:38 INFO  CustomListener:90 - Test Finished : When Maker enter the login detailes and sigin into the Flexcube Application
+2024-01-31 10:51:38 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:51:39 INFO  OnlineActions:293 - --------	EnterText wrapper method inside FalconActions class is executed successfully	--------
+2024-01-31 10:51:39 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:51:39 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:51:40 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:51:40 INFO  CustomListener:74 - Test Started : And Enter fastpath code "STDCUSAC" and click on go button
+2024-01-31 10:51:40 INFO  CustomListener:90 - Test Finished : And Enter fastpath code "STDCUSAC" and click on go button
+2024-01-31 10:51:52 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:51:52 INFO  CustomListener:74 - Test Started : And Verify the Customer Account Maintenance screen
+2024-01-31 10:51:52 INFO  CustomListener:90 - Test Finished : And Verify the Customer Account Maintenance screen
+2024-01-31 10:51:52 INFO  OnlineActions:309 - --------	click wrapper method inside MyAction class is invoked successfully	--------
+2024-01-31 10:51:52 INFO  OnlineActions:318 - --------	click wrapper method inside MyAction class is executed successfully	--------
+2024-01-31 10:51:52 INFO  TestBase:237 - Proceed without screenshots for every step in the scenario
+2024-01-31 10:51:52 INFO  CustomListener:74 - Test Started : And Click on New Option in the screen
+2024-01-31 10:51:52 INFO  CustomListener:90 - Test Finished : And Click on New Option in the screen
+2024-01-31 10:51:52 INFO  OnlineActions:286 - --------	EnterText wrapper method inside FalconActions class is invoked successfully	--------
+2024-01-31 10:51:53 ERROR OnlineActions:301 - ERROR WHILE TRYING TO TYPE SPECIFIED TEXT INSIDE A WEB ELEMENT : Keys to send should be a not null CharSequence
+2024-01-31 10:51:53 INFO  CustomListener:74 - Test Started : And Enter the Mandatory Customer number,Account class code and Currency Code fields in the screen
+2024-01-31 10:51:53 INFO  CustomListener:90 - Test Finished : And Enter the Mandatory Customer number,Account class code and Currency Code fields in the screen
+2024-01-31 10:51:53 INFO  TestBase:230 - Taking screenshot for every step in the scearnario
+2024-01-31 10:51:53 INFO  hooks:147 - ===onTestFailure Start===
+2024-01-31 10:51:56 INFO  CustomListener:52 - Tests finished! Number of test Steps : 27

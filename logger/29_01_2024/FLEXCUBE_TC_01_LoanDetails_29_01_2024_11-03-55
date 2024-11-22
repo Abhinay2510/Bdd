@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : Successful login with valid credentials |Flexcube_TC_01
+###################################################
+***********************************************************
+Start Time : 29_01_2024_11-03-55
+FLEXCUBE_TC_01
+FLEXCUBE_TC_01_DS1
+***********************************************************
+Test Started : Given User open the Flexcube app url in the browser
+Test Finished : Given User open the Flexcube app url in the browser
+Tests finished! Number of test Steps : 2

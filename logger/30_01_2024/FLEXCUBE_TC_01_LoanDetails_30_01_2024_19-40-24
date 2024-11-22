@@ -1,0 +1,44 @@
+###################################################
+Executing Scenario : Successful CIF number creation for individual customer |Flexcube_TC_01
+###################################################
+***********************************************************
+Start Time : 30_01_2024_19-40-24
+FLEXCUBE_TC_01
+FLEXCUBE_TC_01_DS1
+***********************************************************
+Test Started : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Test Finished : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Test Started : When Maker enter the login detailes and sigin into the Flexcube Application
+Test Finished : When Maker enter the login detailes and sigin into the Flexcube Application
+Test Started : And Enter fastpath code "STDCIF" and click on go button
+Test Finished : And Enter fastpath code "STDCIF" and click on go button
+Test Started : And Verify the Customer Mainteance Screen is displayed
+Test Finished : And Verify the Customer Mainteance Screen is displayed
+Test Started : And Click on New Option in the screen
+Test Finished : And Click on New Option in the screen
+Test Started : And user click on "Individual" customer type
+Test Finished : And user click on "Individual" customer type
+Test Started : And Click on Custmer no P button in the screen
+Test Finished : And Click on Custmer no P button in the screen
+Test Started : And user click and enter Full Name "CustomerFullName"
+Test Finished : And user click and enter Full Name "CustomerFullName"
+Test Started : And User click and enter Short Name "CustomerShortName"
+Test Finished : And User click and enter Short Name "CustomerShortName"
+Test Started : And Enter Customer Category
+Test Finished : And Enter Customer Category
+Test Started : And User Fills all Mandatory field under Personal tab
+Test Finished : And User Fills all Mandatory field under Personal tab
+Test Started : And User click on Additional tab
+Test Finished : And User click on Additional tab
+Test Started : When Enter data of location and Media fields under additional tab
+Test Finished : When Enter data of location and Media fields under additional tab
+Test Started : And Click on Save button
+Test Finished : And Click on Save button
+Test Started : And Remarked pop up should be display
+Test Finished : And Remarked pop up should be display
+Test Started : And user click on Ok button
+Test Finished : And user click on Ok button
+Test Started : And Override description popup should be displayed
+Test Finished : And Override description popup should be displayed
+Test Started : When user click on Accept button in the popup
+Test Finished : When user click on Accept button in the popup

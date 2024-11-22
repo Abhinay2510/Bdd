@@ -1,0 +1,17 @@
+###################################################
+Executing Scenario : Sauce_lab_demo|TC_01_SA_Data
+###################################################
+***********************************************************
+Start Time : 20_07_2023_22-11-03
+TC_01_SA_DATA
+TC_01_SA_DATA_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch online application
+Test Finished : Given User opens the chrome and launch online application
+Test Started : When Enter login details and sigin
+Test Finished : When Enter login details and sigin
+Test Started : And Add any product into the cart By clicking Add to Cart button
+Test Finished : And Add any product into the cart By clicking Add to Cart button
+Test Started : Then User should logout
+Test Finished : Then User should logout
+Tests finished! Number of test Steps : 6

@@ -1,0 +1,10 @@
+###################################################
+Executing Scenario : User applies for a loan online through Bank |TC_01_bank3i_test
+###################################################
+***********************************************************
+Start Time : 07_08_2023_19-55-44
+TC_01_BANK3I_TEST
+TC_01_BANK3I_TEST_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch Bank application
+Test Finished : Given User opens the chrome and launch Bank application

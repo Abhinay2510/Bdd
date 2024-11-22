@@ -1,0 +1,4 @@
+/.metadata/
+/MavenwithCucumber1/target/
+/MavenwithCucumber1/test-output/
+/MavenwithCucumber1/logger/

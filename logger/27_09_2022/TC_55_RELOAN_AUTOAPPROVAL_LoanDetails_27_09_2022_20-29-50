@@ -1,0 +1,15 @@
+###################################################
+Executing Scenario : TC04_JSY_Reloan_Flinks_AutoApproval_Reduce approved amount & Loan term|TC_55_Reloan_AutoApproval
+###################################################
+***********************************************************
+Start Time : 27_09_2022_20-29-50
+TC_55_RELOAN_AUTOAPPROVAL
+TC_55_RELOAN_AUTOAPPROVAL_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application
+Test Started : And customer chooses IL Jsy card
+Test Finished : And customer chooses IL Jsy card
+Tests finished! Number of test Steps : 4

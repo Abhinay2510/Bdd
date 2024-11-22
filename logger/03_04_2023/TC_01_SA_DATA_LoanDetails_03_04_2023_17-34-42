@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : Sauce_lab_demo|TC_01_SA_Data
+###################################################
+***********************************************************
+Start Time : 03_04_2023_17-34-42
+TC_01_SA_DATA
+TC_01_SA_DATA_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch online application
+Test Finished : Given User opens the chrome and launch online application
+Tests finished! Number of test Steps : 2

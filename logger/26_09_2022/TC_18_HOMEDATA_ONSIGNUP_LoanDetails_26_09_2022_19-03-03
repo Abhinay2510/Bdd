@@ -1,0 +1,45 @@
+###################################################
+Executing Scenario : Test case 96134: Verify_Home Screen_Data holding on SignUp Screen|TC_18_HomeData_OnSignUp
+###################################################
+***********************************************************
+Start Time : 26_09_2022_19-03-03
+TC_18_HOMEDATA_ONSIGNUP
+TC_18_HOMEDATA_ONSIGNUP_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+ubwu
+=================Customer Name====================
+=================Customer Email====================
+ubwujohnrbwz@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Finished : Given user_opens_the_chrome_and_launch_TDPOD_homepage and clciks Instalment Loans under Loans tab.
+Test Started : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Finished : And User clicks Apply Now on Money Mart Installment Loans page.
+Test Started : And User entres all required information on tell us about you page
+Test Finished : And User entres all required information on tell us about you page
+Test Started : And User is on FlinkConnect, 2ways to apply page.
+Test Finished : And User is on FlinkConnect, 2ways to apply page.
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And verify the employee screen
+Test Finished : And verify the employee screen
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And click on sign up
+Test Finished : And click on sign up
+Test Started : And verify the your details and enter security Q&A
+Test Finished : And verify the your details and enter security Q&A
+Test Started : And click on sign up
+Test Finished : And click on sign up
+Test Started : And enter enter password and Q&A and created account
+Test Finished : And enter enter password and Q&A and created account
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And enter customer id in xl
+Test Finished : And enter customer id in xl
+Tests finished! Number of test Steps: 16

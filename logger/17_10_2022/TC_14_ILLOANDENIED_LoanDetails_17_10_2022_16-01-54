@@ -1,0 +1,36 @@
+###################################################
+Executing Scenario : Online_New Customer_IL_Credit Declined|TC_14_ILLoandenied
+###################################################
+***********************************************************
+Start Time : 17_10_2022_16-01-54
+TC_14_ILLOANDENIED
+TC_14_ILLOANDENIED_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+=================Customer Name====================
+bmoq
+=================Customer Name====================
+=================Customer Email====================
+bmoqjohnbqiv@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information

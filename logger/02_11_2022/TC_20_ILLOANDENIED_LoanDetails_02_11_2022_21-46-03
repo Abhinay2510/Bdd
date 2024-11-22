@@ -1,0 +1,40 @@
+###################################################
+Executing Scenario : Online_New Customer_IL_Credit Declined|TC_20_ILLoandenied
+###################################################
+***********************************************************
+Start Time : 02_11_2022_21-46-03
+TC_20_ILLOANDENIED
+TC_20_ILLOANDENIED_DS1
+***********************************************************
+=================Customer Name====================
+wmuq
+=================Customer Name====================
+568850
+=================Customer Email====================
+wmuqjohnndmx@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And Genareted sin
+Test Finished : And Genareted sin
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And loan decision screen
+Test Finished : And loan decision screen
+Tests finished! Number of test Steps : 13

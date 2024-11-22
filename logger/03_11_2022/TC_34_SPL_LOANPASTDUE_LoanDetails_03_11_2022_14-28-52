@@ -1,0 +1,12 @@
+###################################################
+Executing Scenario : TC12_CAN Online- Payment portal - Payment confirmation via Enter your details input method For SPL Loan and loan status Debt DUE|TC_34_SPL_LoanPastdue
+###################################################
+***********************************************************
+Start Time : 03_11_2022_14-28-52
+TC_34_SPL_LOANPASTDUE
+TC_34_SPL_LOANPASTDUE_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch url application
+Test Finished : Given User opens the chrome and launch url application
+Test Started : When User login online Application
+Test Finished : When User login online Application

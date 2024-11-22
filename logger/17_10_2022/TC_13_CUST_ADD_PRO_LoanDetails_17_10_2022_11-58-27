@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : Test case 91541: SPL_Verify customers address entered in "Current street address*" field in "About you" page with Province of residence selected on top of the page.|TC_13_Cust_Add_Pro
+###################################################
+***********************************************************
+Start Time : 17_10_2022_11-58-27
+TC_13_CUST_ADD_PRO
+TC_13_CUST_ADD_PRO_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch TDPOD application.
+Test Finished : Given User opens the chrome and launch TDPOD application.
+Tests finished! Number of test Steps : 2

@@ -1,0 +1,21 @@
+###################################################
+Executing Scenario : Successful Account creation for the individual |Flexcube_TC_02
+###################################################
+***********************************************************
+Start Time : 30_01_2024_20-22-34
+FLEXCUBE_TC_02
+FLEXCUBE_TC_02_DS1
+***********************************************************
+Test Started : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Test Finished : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Test Started : When Maker enter the login detailes and sigin into the Flexcube Application
+Test Finished : When Maker enter the login detailes and sigin into the Flexcube Application
+Test Started : And Enter fastpath code "STDCUSAC" and click on go button
+Test Finished : And Enter fastpath code "STDCUSAC" and click on go button
+Test Started : And Verify the Customer Account Maintenance screen
+Test Finished : And Verify the Customer Account Maintenance screen
+Test Started : And Click on New Option in the screen
+Test Finished : And Click on New Option in the screen
+Test Started : And Enter the Mandatory Customer number,Account class code and Currency Code fields in the screen
+Test Finished : And Enter the Mandatory Customer number,Account class code and Currency Code fields in the screen
+Tests finished! Number of test Steps : 26

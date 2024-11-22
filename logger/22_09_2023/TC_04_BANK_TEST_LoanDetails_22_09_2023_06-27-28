@@ -1,0 +1,17 @@
+###################################################
+Executing Scenario : Login and Update Profile|TC_04_bank_test
+###################################################
+***********************************************************
+Start Time : 22_09_2023_06-27-28
+TC_04_BANK_TEST
+TC_04_BANK_TEST_DS1
+***********************************************************
+Test Started : Given I am on the login page
+Test Finished : Given I am on the login page
+Test Started : When I enter username "bhaskar" and password "bhaskar"
+Test Finished : When I enter username "bhaskar" and password "bhaskar"
+Test Started : And I enter 4 digit number "2222"
+Test Finished : And I enter 4 digit number "2222"
+Test Started : And I click on Login button
+Test Finished : And I click on Login button
+Tests finished! Number of test Steps : 5

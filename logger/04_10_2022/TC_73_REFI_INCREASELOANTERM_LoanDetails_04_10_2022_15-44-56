@@ -1,0 +1,37 @@
+###################################################
+Executing Scenario : TC02_JSY_Refi_Reduce approved amount & Increase Loan term|TC_73_Refi_IncreaseLoanterm
+###################################################
+***********************************************************
+Start Time : 04_10_2022_15-44-56
+TC_73_REFI_INCREASELOANTERM
+TC_73_REFI_INCREASELOANTERM_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+=================Customer Name====================
+azyk
+=================Customer Name====================
+=================Customer Email====================
+azykjohnkrvj@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select the flink consent
+Test Finished : And select the flink consent
+Test Started : And Provides income information
+Test Finished : And Provides income information
+Tests finished! Number of test Steps : 12

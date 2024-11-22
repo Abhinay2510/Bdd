@@ -1,0 +1,56 @@
+###################################################
+Executing Scenario : Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user (Without SIN) having active SPL loan|TC_06_ExistingCust_SPL_Loan
+###################################################
+***********************************************************
+Start Time : 31_10_2022_16-20-25
+TC_06_EXISTINGCUST_SPL_LOAN
+TC_06_EXISTINGCUST_SPL_LOAN_DS1
+***********************************************************
+Test Started : Given Genareted sin(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : Given Genareted sin(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : Given user click on signup customer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : Given user click on signup customer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+=================Customer Name====================
+lwdw
+=================Customer Name====================
+411327
+=================Customer Email====================
+lwdwjohnuidb@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Pre-requisite data generation for customer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : When Create customer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : When Create customer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And verify the phonenumber threshold(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And verify the phonenumber threshold(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Verify the address threshold and update address(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Verify the address threshold and update address(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Run the TU query(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Run the TU query(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And customer chooses SPL loan(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And customer chooses SPL loan(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And User provides basic information for spl(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And User provides basic information for spl(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And select the flink consent(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And select the flink consent(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Provides income information(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Provides income information(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And signed the picra and submit application(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And signed the picra and submit application(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And enter valid OTP(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And enter valid OTP(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And add the bank details(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And add the bank details(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And upload document(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And upload document(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And verify the loan status and update loan status in DB(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And verify the loan status and update loan status in DB(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And click on Finalize and e-Sign Loan Documents(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And click on Finalize and e-Sign Loan Documents(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Loan approval screen(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Loan approval screen(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And Loan approved final offer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And Loan approved final offer(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Started : And funding and payment confirmation(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Test Finished : And funding and payment confirmation(Scenario: Test case 83931 : TC03_CAN_IL_SPL_Verify that user able to see PopUp after checking for open loan when Entered same details of existing user 
+Tests finished! Number of test Steps : 21

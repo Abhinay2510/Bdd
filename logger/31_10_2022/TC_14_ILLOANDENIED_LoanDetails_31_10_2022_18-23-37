@@ -1,0 +1,32 @@
+###################################################
+Executing Scenario : Online_New Customer_IL_Credit Declined|TC_14_ILLoandenied
+###################################################
+***********************************************************
+Start Time : 31_10_2022_18-23-37
+TC_14_ILLOANDENIED
+TC_14_ILLOANDENIED_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : Given user click on signup
+Test Finished : Given user click on signup
+=================Customer Name====================
+ihjs
+=================Customer Name====================
+389220
+=================Customer Email====================
+ihjsjohnbmoq@yopmail.com
+=================Customer Email====================
+Test Started : And Pre-requisite data generation for customer
+Test Finished : And Pre-requisite data generation for customer
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : And Verify the address threshold and update address
+Test Finished : And Verify the address threshold and update address
+Test Started : When Enter all details and create account
+Test Finished : When Enter all details and create account
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Tests finished! Number of test Steps : 9

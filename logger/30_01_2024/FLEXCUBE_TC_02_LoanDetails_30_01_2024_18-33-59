@@ -1,0 +1,81 @@
+###################################################
+Executing Scenario : Successful Account creation for the individual |Flexcube_TC_02
+###################################################
+***********************************************************
+Start Time : 30_01_2024_18-33-59
+FLEXCUBE_TC_02
+FLEXCUBE_TC_02_DS1
+***********************************************************
+Test Started : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Test Finished : Given User opens the chrome browser and launches the Oracle Flexcube Application
+Test Started : When Maker enter the login detailes and sigin into the Flexcube Application
+Test Finished : When Maker enter the login detailes and sigin into the Flexcube Application
+Test Started : And Enter fastpath code "STDCUSAC" and click on go button
+Test Finished : And Enter fastpath code "STDCUSAC" and click on go button
+Test Started : And Verify the Customer Account Maintenance screen
+Test Finished : And Verify the Customer Account Maintenance screen
+Test Started : And Click on New Option in the screen
+Test Finished : And Click on New Option in the screen
+Test Started : And Enter the Mandatory Customer number,Account class code and Currency Code fields in the screen
+Test Finished : And Enter the Mandatory Customer number,Account class code and Currency Code fields in the screen
+Test Started : And Click on Fetch button and Generate the Customer Account Number
+Test Finished : And Click on Fetch button and Generate the Customer Account Number
+Test Started : And user click on MIS and Provided the pool code
+Test Finished : And user click on MIS and Provided the pool code
+Test Started : And Enter Mandatory fields in Main tab
+Test Finished : And Enter Mandatory fields in Main tab
+Test Started : And Click on Save button
+Test Finished : And Click on Save button
+Test Started : And Remarked pop up should be display
+Test Finished : And Remarked pop up should be display
+Test Started : And user click on Ok button
+Test Finished : And user click on Ok button
+Test Started : And Override description popup should be displayed
+Test Finished : And Override description popup should be displayed
+Test Started : And user click on Accept button in the popup
+Test Finished : And user click on Accept button in the popup
+Test Started : Then Successfully Created Customer Account and sent to Checker for Authorization
+Test Finished : Then Successfully Created Customer Account and sent to Checker for Authorization
+Test Started : And Close the Customer Maintenance screen
+Test Finished : And Close the Customer Maintenance screen
+Test Started : When user clicks on the user profile icon and select sign off option from the list
+Test Finished : When user clicks on the user profile icon and select sign off option from the list
+Test Started : And Confirm Message popup should be displayed with ok and cancel buttons
+Test Finished : And Confirm Message popup should be displayed with ok and cancel buttons
+Test Started : When user clicks on the Ok button in the popup screen
+Test Finished : When user clicks on the Ok button in the popup screen
+Test Started : Then user Successfully logs out from the page  and navigate to the Flexcube login page
+Test Finished : Then user Successfully logs out from the page  and navigate to the Flexcube login page
+Test Started : Given Open the Oracle flexcube in the new window tab
+Test Finished : Given Open the Oracle flexcube in the new window tab
+Test Started : When Checker enter the login detailes and sigin into the Flexcube Application
+Test Finished : When Checker enter the login detailes and sigin into the Flexcube Application
+Test Started : And Enter fastpath code "STSCUSAC" and click on go button
+Test Finished : And Enter fastpath code "STSCUSAC" and click on go button
+Test Started : And Verify the Customer Account Summary is displayed
+Test Finished : And Verify the Customer Account Summary is displayed
+Test Started : And Search for "UnAuthorized" Customer number in the Customer Account summary screen
+Test Finished : And Search for "UnAuthorized" Customer number in the Customer Account summary screen
+Test Started : And Save the Customer Account Number
+Test Finished : And Save the Customer Account Number
+Test Started : And Double click on the UnAuthorized Customer number in the list
+Test Finished : And Double click on the UnAuthorized Customer number in the list
+Test Started : And Verify the Unauthorized Customer Record in the Customer Maintenance screen
+Test Finished : And Verify the Unauthorized Customer Record in the Customer Maintenance screen
+Test Started : And Click on the Authorize button in the screen
+Test Finished : And Click on the Authorize button in the screen
+Test Started : And user click on Accept button in the Authorize screen
+Test Finished : And user click on Accept button in the Authorize screen
+Test Started : Then Successfully Authorized the Customer Account and  Created Customer Account number
+Test Finished : Then Successfully Authorized the Customer Account and  Created Customer Account number
+Test Started : And Close the Customer Maintenance and Customer Account Summary Screen
+Test Finished : And Close the Customer Maintenance and Customer Account Summary Screen
+Test Started : When user clicks on the user profile icon and select sign off option from the list
+Test Finished : When user clicks on the user profile icon and select sign off option from the list
+Test Started : Then Confirm Message popup should be displayed with ok and cancel buttons
+Test Finished : Then Confirm Message popup should be displayed with ok and cancel buttons
+Test Started : When user clicks on the Ok button in the popup screen
+Test Finished : When user clicks on the Ok button in the popup screen
+Test Started : Then user Successfully logs out from the page  and navigate to the Flexcube login page
+Test Finished : Then user Successfully logs out from the page  and navigate to the Flexcube login page
+Tests finished! Number of test Steps : 74

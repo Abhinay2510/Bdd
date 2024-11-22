@@ -1,0 +1,27 @@
+###################################################
+Executing Scenario : Test case 84388: Verify that reset password FAILED with Unregistered email.|TC_08_RestPass_UnRegi_Email
+###################################################
+***********************************************************
+Start Time : 31_10_2022_16-34-44
+TC_08_RESTPASS_UNREGI_EMAIL
+TC_08_RESTPASS_UNREGI_EMAIL_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch TDPOD application.
+Test Finished : Given User opens the chrome and launch TDPOD application.
+Test Started : And User clicks on I forgot password link.
+Test Finished : And User clicks on I forgot password link.
+Test Started : And User verifies details of Forgot your password page.
+Test Finished : And User verifies details of Forgot your password page.
+Test Started : And User selects send OTP on email or mobile.
+Test Finished : And User selects send OTP on email or mobile.
+Test Started : And User select how to verify account as Send me an email and proceed
+Test Finished : And User select how to verify account as Send me an email and proceed
+Test Started : And User provides registered email and clicks send code
+Test Finished : And User provides registered email and clicks send code
+Test Started : And User login to Yopmail and get latest send code
+Test Finished : And User login to Yopmail and get latest send code
+Test Started : And User Provides the valid active send code and clicks verify
+Test Finished : And User Provides the valid active send code and clicks verify
+Test Started : And We are unable to reset your password error dialog should display
+Test Finished : And We are unable to reset your password error dialog should display
+Tests finished! Number of test Steps: 10

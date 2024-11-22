@@ -1,0 +1,31 @@
+###################################################
+Executing Scenario : TC04_JSY_Reloan_Flinks_AutoApproval_Reduce approved amount & Loan term|TC_55_Reloan_AutoApproval
+###################################################
+***********************************************************
+Start Time : 27_09_2022_20-12-02
+TC_55_RELOAN_AUTOAPPROVAL
+TC_55_RELOAN_AUTOAPPROVAL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Test Started : And Run the TU query
+Test Finished : And Run the TU query
+Test Started : And customer chooses IL loan
+Test Finished : And customer chooses IL loan
+Test Started : And User provides basic information
+Test Finished : And User provides basic information
+Test Started : And select flink opt in
+Test Finished : And select flink opt in
+Test Started : And check the flinks income details
+Test Finished : And check the flinks income details
+Test Started : And signed the picra and submit application
+Test Finished : And signed the picra and submit application
+Test Started : And Verify the phone OTP and enter valid OTP for autofund
+Test Finished : And Verify the phone OTP and enter valid OTP for autofund
+Tests finished! Number of test Steps : 12

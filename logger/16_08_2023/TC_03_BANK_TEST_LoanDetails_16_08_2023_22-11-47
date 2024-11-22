@@ -1,0 +1,10 @@
+###################################################
+Executing Scenario : Successful login with valid credentials |TC_03_bank_test
+###################################################
+***********************************************************
+Start Time : 16_08_2023_22-11-47
+TC_03_BANK_TEST
+TC_03_BANK_TEST_DS1
+***********************************************************
+Test Started : Given the user is on the login page
+Test Finished : Given the user is on the login page

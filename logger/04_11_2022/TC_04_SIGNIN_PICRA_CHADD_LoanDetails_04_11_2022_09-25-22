@@ -1,0 +1,11 @@
+###################################################
+Executing Scenario : Test case 81635: Verify that Existing customer sign-in after PICRA screen when user changed to Address on DB|TC_04_SignIn_PICRA_ChAdd
+###################################################
+***********************************************************
+Start Time : 04_11_2022_09-25-22
+TC_04_SIGNIN_PICRA_CHADD
+TC_04_SIGNIN_PICRA_CHADD_DS1
+***********************************************************
+Test Started : And User is on homepage clicks Instalment Loans under Loans tab.
+Test Finished : And User is on homepage clicks Instalment Loans under Loans tab.
+Tests finished! Number of test Steps : 2

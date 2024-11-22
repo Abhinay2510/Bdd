@@ -1,0 +1,13 @@
+###################################################
+Executing Scenario : User applies for a loan online through Bank |TC_02_bank_test
+###################################################
+***********************************************************
+Start Time : 07_08_2023_22-48-32
+TC_02_BANK_TEST
+TC_02_BANK_TEST_DS1
+***********************************************************
+Test Started : Given User opens the chrome and launch Bank application
+Test Finished : Given User opens the chrome and launch Bank application
+Test Started : When Enter login details and sigin into bank
+Test Finished : When Enter login details and sigin into bank
+Tests finished! Number of test Steps : 3

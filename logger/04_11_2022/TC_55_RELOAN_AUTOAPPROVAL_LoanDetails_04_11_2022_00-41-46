@@ -1,0 +1,17 @@
+###################################################
+Executing Scenario : TC04_JSY_Reloan_Flinks_AutoApproval_Reduce approved amount & Loan term|TC_55_Reloan_AutoApproval
+###################################################
+***********************************************************
+Start Time : 04_11_2022_00-41-46
+TC_55_RELOAN_AUTOAPPROVAL
+TC_55_RELOAN_AUTOAPPROVAL_DS1
+***********************************************************
+Test Started : Given Genareted sin
+Test Finished : Given Genareted sin
+Test Started : And verify the phonenumber threshold
+Test Finished : And verify the phonenumber threshold
+Test Started : Given user click on signup customer
+Test Finished : Given user click on signup customer
+Test Started : When Create customer
+Test Finished : When Create customer
+Tests finished! Number of test Steps : 5
